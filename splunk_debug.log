@@ -1,0 +1,589 @@
+Event: Login Successful, Username: user_2@mail.com, Response Code: 200
+Event: Login Successful, Username: user_2, Response Code: 200
+Event: User Signup Successful, Username: user_6, Response Code: 200
+Event: User Creation Successful, Username: user_7, Response Code: 200
+Event: List of Users, Username: Admin, Response Code: 200
+Event: User Retrieval by ID, Username: user_3, Response Code: 200
+Event: User Update by ID, Username: user_8, Response Code: 200
+Event: User Deletion by ID, Username: user_8, Response Code: 200
+Event: User Deletion by ID, Username: user_6, Response Code: 200
+Event: User Deletion by ID, Username: user_5, Response Code: 200
+Event: List of Users, Username: Admin, Response Code: 200
+Event: User Deletion by ID, Username: user_4, Response Code: 200
+Event: User Creation Successful, Username: user_4, Response Code: 200
+Event: User Deletion by ID, Username: user_4, Response Code: 200
+Event: User Deletion by ID, Username: user_3, Response Code: 200
+Event: User Deletion by ID, Username: user_2, Response Code: 200
+Event: Delete User Error, Username: 1, Response Code: 404
+Event: List of Users, Username: Admin, Response Code: 200
+Event: signup_error, Username: user_1, Response Code: 500
+Event: User Creation Successful, Username: user_1, Response Code: 200
+Event: User Deletion by ID, Username: user_1, Response Code: 200
+Event: User Creation Successful, Username: user_1, Response Code: 200
+Event: User Signup Successful, Username: user_2, Response Code: 200
+Event: Login Failed, Username: user_2@mail.com, Response Code: 400
+Event: Login Successful, Username: user_1, Response Code: 200
+Event: Login Failed, Username: user_2, Response Code: 400
+Event: List of Users, Username: Admin, Response Code: 200
+Event: User Retrieval by ID, Username: user_1, Response Code: 200
+Event: User Retrieval by ID, Username: user_2, Response Code: 200
+Event: User Creation Successful, Username: user_3, Response Code: 200
+Event: List of Users, Username: Admin, Response Code: 200
+Event: Login Failed, Username: user_2, Response Code: 400
+Event: List of Users, Username: Admin, Response Code: 200
+Event: User Retrieval by ID, Username: user_2, Response Code: 200
+Event: Login Failed, Username: user_2, Response Code: 400
+Event: User Deletion by ID, Username: user_2, Response Code: 200
+Event: List of Users, Username: Admin, Response Code: 200
+Event: User Signup Successful, Username: user_2, Response Code: 200
+Event: User Retrieval Error, Username: 2, Response Code: 404
+Event: User Retrieval by ID, Username: user_2, Response Code: 200
+Event: Login Failed, Username: user_2, Response Code: 400
+Event: Login Successful, Username: user_3, Response Code: 200
+Event: Login Failed, Username: user_2, Response Code: 400
+Event: Login Successful, Username: user_3, Response Code: 200
+Event: User Signup Successful, Username: user_4, Response Code: 200
+Event: List of Users, Username: Admin, Response Code: 200
+Event: Login Failed, Username: user_4, Response Code: 400
+Event: Login Failed, Username: user_4, Response Code: 400
+Event: Login Successful, Username: user_3, Response Code: 200
+Event: Creating user user_5 with hashed password: $2b$12$gsXQi7BJkiANa0nKfT9yyOcrOfsZs5DyZ/TcHUS7zuf/YxmOUsL4K, Username: user_5, Response Code: 200
+Event: User Signup Successful, Username: user_5, Response Code: 200
+Event: Login Failed, Username: user_5, Response Code: 400
+Event: List of Users, Username: Admin, Response Code: 200
+Event: List of Users, Username: Admin, Response Code: 200
+Event: Creating user user_6 with hashed password: $2b$12$ND1mFNVMjEUd4XI4zMmnaeXMNAb8Pi1YhLRZC/MqkVNu0WtM3uZcS, Username: user_6, Response Code: 200
+Event: User Signup Successful, Username: user_6, Response Code: 200
+Event: Login Failed, Username: user_6, Response Code: 400
+Event: List of Users, Username: Admin, Response Code: 200
+Event: Creating user user_7 with hashed password: $2b$12$hMSIwV34LRlKp8bVgNsaluNISk74q7GYW4cxlzIwrNnRrekd.lu0q, Username: user_7, Response Code: 200
+Event: User Signup Successful, Username: user_7, Response Code: 200
+Event: Login Failed, Username: user_7, Response Code: 400
+Event: List of Users, Username: Admin, Response Code: 200
+Event: Creating user user_8 with hashed password: $2b$12$ESmdMqNspTBty9yb1S/poe5KT3huD00PZvslBY6uehiu1OxzOHcAq, Username: user_8, Response Code: 200
+Event: User Signup Successful, Username: user_8, Response Code: 200
+Event: Login Failed, Username: user_8, Response Code: 400
+Event: List of Users, Username: Admin, Response Code: 200
+Event: Creating user user_9 with hashed password: $2b$12$zfHCDKckkM2QZBTdRShgG.4wj9KYbS6G6TUwArZdOoc4bYtup4b8W, Username: user_9, Response Code: 200
+Event: User Signup Successful, Username: user_9, Response Code: 200
+Event: Login Failed, Username: user_9, Response Code: 400
+Event: Login Failed, Username: user_9, Response Code: 400
+Event: Creating user user_10 with hashed password: $2b$12$9VUk6.KSYFJVE4S5uPrCqOEF.20mEpRLBLki..MHa1lckXADYyRhC, Username: user_10, Response Code: 200
+Event: User Signup Successful, Username: user_10, Response Code: 200
+Event: Login Failed, Username: user_10, Response Code: 400
+Event: Creating user user_11 with hashed password: $2b$12$dos41MDlnvVhEbrO49y2uOHOqRwutRUt1rojF6qwO4kOVFqYCVBYS, Username: user_11, Response Code: 200
+Event: User Signup Successful, Username: user_11, Response Code: 200
+Event: Login Failed, Username: user_11, Response Code: 400
+Event: Creating user user_12 with hashed password: $2b$12$6m5gvE8mT77Z33kpWviO.eYDr.nFlQG.bch7mjWE/1qY1YxERUfBC, Username: user_12, Response Code: 200
+Event: User Signup Successful, Username: user_12, Response Code: 200
+Event: Login Failed, Username: user_12, Response Code: 400
+Event: List of Users, Username: Admin, Response Code: 200
+Event: Creating user user_13 with hashed password: $2b$12$ifm4BERxPDlFocjlYl5QgOF2jBH6QM2LyQVxTe8I1x3sBSbQJ.lqe, Username: user_13, Response Code: 200
+Event: User Signup Successful, Username: user_13, Response Code: 200
+Event: Login failed: Incorrect password, Username: user_13@mail.com, Response Code: 400
+Event: Unexpected signup error: name 'User' is not defined, Username: user_14, Response Code: 500
+Event: Unexpected signup error: (psycopg2.errors.UniqueViolation) duplicate key value violates unique constraint "users_pkey"
+DETAIL:  Key (id)=(8) already exists.
+
+[SQL: INSERT INTO users (username, email, password) VALUES (%(username)s, %(email)s, %(password)s) RETURNING users.id]
+[parameters: {'username': 'user_14', 'email': 'user_14@mail.com', 'password': '$2b$12$D/gdyGY9M6JV5zAITu5AsOmTtBviSk3QVd82k7x/Csw87/REH9lwW'}]
+(Background on this error at: https://sqlalche.me/e/20/gkpj), Username: user_14, Response Code: 500
+Event: Unexpected signup error: (psycopg2.errors.UniqueViolation) duplicate key value violates unique constraint "users_pkey"
+DETAIL:  Key (id)=(9) already exists.
+
+[SQL: INSERT INTO users (username, email, password) VALUES (%(username)s, %(email)s, %(password)s) RETURNING users.id]
+[parameters: {'username': 'user_15', 'email': 'user_15@mail.com', 'password': '$2b$12$KndpEaRko9ps33oT7VCjpedwY/0Pu7i1FwOWHekPOtC4GtRej4st6'}]
+(Background on this error at: https://sqlalche.me/e/20/gkpj), Username: user_15, Response Code: 500
+Event: Unexpected signup error: (psycopg2.errors.UniqueViolation) duplicate key value violates unique constraint "users_pkey"
+DETAIL:  Key (id)=(10) already exists.
+
+[SQL: INSERT INTO users (username, email, password) VALUES (%(username)s, %(email)s, %(password)s) RETURNING users.id]
+[parameters: {'username': 'user_15', 'email': 'user_15@mail.com', 'password': '$2b$12$xs.eVWAtCPHmjVSSel8nMuOvb5oXcSgjMDl4GhRDudxoPpKrSTCTO'}]
+(Background on this error at: https://sqlalche.me/e/20/gkpj), Username: user_15, Response Code: 500
+Event: Unexpected signup error: (psycopg2.errors.UniqueViolation) duplicate key value violates unique constraint "users_pkey"
+DETAIL:  Key (id)=(11) already exists.
+
+[SQL: INSERT INTO users (username, email, password) VALUES (%(username)s, %(email)s, %(password)s) RETURNING users.id]
+[parameters: {'username': 'user_16', 'email': 'user_16@mail.com', 'password': '$2b$12$z0I2Nw3LWvOwRcvDKS0ap.FsiSG5t89j.KKrwqr7NYGdfZktZA4lC'}]
+(Background on this error at: https://sqlalche.me/e/20/gkpj), Username: user_16, Response Code: 500
+Event: Creating user user_16 with hashed password: $2b$12$/cOP9FneMB4XX0CPUSpU4e5MKl8h5X629g3JK9lV70uXhV7Px4Zhq, Username: user_16, Response Code: 200
+Event: User Signup Successful, Username: user_16, Response Code: 200
+Event: User logged in successfully, Username: user_16, Response Code: 200
+Event: List of Users, Username: Admin, Response Code: 200
+Event: User Retrieval by ID, Username: user_4, Response Code: 200
+Event: User Retrieval by ID, Username: user_11, Response Code: 200
+Event: User Creation Successful, Username: user_17, Response Code: 200
+Event: User logged in successfully, Username: user_17, Response Code: 200
+Event: List of Users, Username: Admin, Response Code: 200
+Event: User Update by ID, Username: user, Response Code: 200
+Event: User Deletion by ID, Username: user_17, Response Code: 200
+Event: User Deletion by ID, Username: user_16, Response Code: 200
+Event: List of Users, Username: Admin, Response Code: 200
+Event: List of Users, Username: Admin, Response Code: 200
+Event: User Deletion by ID, Username: user_13, Response Code: 200
+Event: User Deletion by ID, Username: user_12, Response Code: 200
+Event: User Deletion by ID, Username: user_11, Response Code: 200
+Event: User Deletion by ID, Username: user_10, Response Code: 200
+Event: User Deletion by ID, Username: user_9, Response Code: 200
+Event: User Deletion by ID, Username: user_8, Response Code: 200
+Event: User Deletion by ID, Username: user_7, Response Code: 200
+Event: User Deletion by ID, Username: user_6, Response Code: 200
+Event: User Deletion by ID, Username: user_5, Response Code: 200
+Event: User Deletion by ID, Username: user_4, Response Code: 200
+Event: User Deletion by ID, Username: user_2, Response Code: 200
+Event: User Deletion by ID, Username: user_3, Response Code: 200
+Event: List of Users, Username: Admin, Response Code: 200
+Event: User Signup Successful, Username: user_1, Response Code: 200
+Event: List of Users, Username: Admin, Response Code: 200
+Event: User logged in successfully, Username: user_1, Response Code: 200
+Event: User Creation Successful, Username: user_2, Response Code: 200
+Event: User Retrieval by ID, Username: user, Response Code: 200
+Event: User Retrieval by ID, Username: user_1, Response Code: 200
+Event: User Retrieval by ID, Username: user_2, Response Code: 200
+Event: User Update by ID, Username: user_3, Response Code: 200
+Event: User Update by ID, Username: user_2, Response Code: 200
+Event: User Update by ID, Username: user_1, Response Code: 200
+Event: User Retrieval by ID, Username: user_1, Response Code: 200
+Event: User Retrieval by ID, Username: user_2, Response Code: 200
+Event: User Retrieval by ID, Username: user_3, Response Code: 200
+Event: User Retrieval Error, Username: 4, Response Code: 404
+Event: List of Users, Username: Admin, Response Code: 200
+Event: User Signup Successful, Username: user_4, Response Code: 200
+Event: User Logged Successfully, Username: user_4, Response Code: 200
+Event: List of Users, Username: Admin, Response Code: 200
+Event: User Retrieved Successfully, Username: user_1, Response Code: 200
+Event: User Retrieved Successfully, Username: user_4, Response Code: 200
+Event: User Retrieval Error, Username: 5, Response Code: 404
+Event: User Retrieved Successfully, Username: user_2, Response Code: 200
+Event: User Creation Successful, Username: user_5, Response Code: 200
+Event: List of Users, Username: Admin, Response Code: 200
+Event: Login failed: Incorrect password, Username: user_4@mail.com, Response Code: 400
+Event: User Logged Successfully, Username: user_5, Response Code: 200
+Event: User Deleted Successfully, Username: user_2, Response Code: 200
+Event: User Creation Successful, Username: user_2, Response Code: 200
+Event: User Updated Successfully, Username: user_6, Response Code: 200
+Event: User Retrieved Successfully, Username: user_6, Response Code: 200
+Event: List of Users, Username: Admin, Response Code: 200
+Event: List of Users, Username: Admin, Response Code: 200
+Event: Login failed: Incorrect password, Username: user_5@mail.com, Response Code: 400
+Event: Login failed: Incorrect password, Username: user_6@mail.com, Response Code: 400
+Event: Login failed: Incorrect password, Username: user_6@mail.com, Response Code: 400
+Event: List of Users, Username: Admin, Response Code: 200
+Event: User Deleted Successfully, Username: user_6, Response Code: 200
+Event: User Deleted Successfully, Username: user_5, Response Code: 200
+Event: User Deleted Successfully, Username: user_4, Response Code: 200
+Event: User Deleted Successfully, Username: user_3, Response Code: 200
+Event: Delete User Error, Username: 2, Response Code: 404
+Event: List of Users, Username: Admin, Response Code: 200
+Event: User Creation Successful, Username: user_2, Response Code: 200
+Event: List of Users, Username: Admin, Response Code: 200
+Event: User Signup Successful, Username: user_3, Response Code: 200
+Event: User Creation Successful, Username: user_4, Response Code: 200
+Event: User Retrieved Successfully, Username: user_2, Response Code: 200
+Event: User Retrieved Successfully, Username: user_4, Response Code: 200
+Event: User Logged Successfully, Username: user_3, Response Code: 200
+Event: User Login Failed: Incorrect password, Username: user_3@mail.com, Response Code: 400
+Event: User Logged Successfully, Username: user_2, Response Code: 200
+Event: User Signup Successful, Username: user, Response Code: 200
+Event: List of Users, Username: Admin, Response Code: 200
+Event: User Updated Successfully, Username: user_5, Response Code: 200
+Event: User Retrieved Successfully, Username: user_5, Response Code: 200
+Event: Delete User Error, Username: 6, Response Code: 404
+Event: User Deleted Successfully, Username: user_5, Response Code: 200
+Event: List of Users, Username: Admin, Response Code: 200
+Event: List of Users, Username: Admin, Response Code: 200
+Event: List of Users, Username: Admin, Response Code: 200
+Event: User Signup Successful, Username: user_5, Response Code: 200
+Event: User Login Failed: User not found, Username: user_5@mail.com, Response Code: 400
+Event: User Logged Successfully, Username: user_5, Response Code: 200
+Event: User Retrieved Successfully, Username: user_5, Response Code: 200
+Event: User Updated Successfully, Username: user_6, Response Code: 200
+Event: User Deleted Successfully, Username: user_6, Response Code: 200
+Event: User Retrieval Error, Username: 5, Response Code: 404
+Event: List of Users, Username: Admin, Response Code: 200
+Event: List of Users, Username: Admin, Response Code: 200
+Event: User Login Failed: Incorrect password, Username: user_3@mail.com, Response Code: 400
+Event: User Retrieved Successfully, Username: user_4, Response Code: 200
+Event: List of Users, Username: Admin, Response Code: 200
+Event: User Login Failed: User not found, Username: user-1@mail.com, Response Code: 400
+Event: User Logged Successfully, Username: user_1, Response Code: 200
+Event: User Retrieval Error, Username: 5, Response Code: 404
+Event: List of Users, Username: Admin, Response Code: 200
+Event: List of Users, Username: Admin, Response Code: 200
+Event: List of Users, Username: Admin, Response Code: 200
+Event: List of Users, Username: Admin, Response Code: 200
+Event: List of Users, Username: Admin, Response Code: 200
+Event: List of Users, Username: Admin, Response Code: 200
+Event: List of Users, Username: Admin, Response Code: 200
+Event: List of Users, Username: Admin, Response Code: 200
+Event: List of Users, Username: Admin, Response Code: 200
+Event: List of Users, Username: Admin, Response Code: 200
+Event: List of Users, Username: Admin, Response Code: 200
+Event: List of Users, Username: Admin, Response Code: 200
+Event: List of Users, Username: Admin, Response Code: 200
+Event: List of Users, Username: Admin, Response Code: 200
+Event: User Retrieved Successfully, Username: user_2, Response Code: 200
+Event: List of Users, Username: Admin, Response Code: 200
+Event: List of Users, Username: Admin, Response Code: 200
+Event: User Retrieval Error, Username: 8, Response Code: 404
+Event: User Retrieval Error, Username: 5, Response Code: 404
+Event: User Retrieved Successfully, Username: user_3, Response Code: 200
+Event: List of Users, Username: Admin, Response Code: 200
+Event: List of Users, Username: Admin, Response Code: 200
+Event: List of Users, Username: Admin, Response Code: 200
+Event: List of Users, Username: Admin, Response Code: 200
+Event: List of Users, Username: Admin, Response Code: 200
+Event: List of Users, Username: Admin, Response Code: 200
+Event: List of Users, Username: Admin, Response Code: 200
+Event: List of Users, Username: Admin, Response Code: 200
+Event: List of Users, Username: Admin, Response Code: 200
+Event: List of Users, Username: Admin, Response Code: 200
+Event: List of Users, Username: Admin, Response Code: 200
+Event: List of Users, Username: Admin, Response Code: 200
+Event: List of Users, Username: Admin, Response Code: 200
+Event: List of Users, Username: Admin, Response Code: 200
+Event: List of Users, Username: Admin, Response Code: 200
+Event: List of Users, Username: Admin, Response Code: 200
+Event: List of Users, Username: Admin, Response Code: 200
+Event: List of Users, Username: Admin, Response Code: 200
+Event: List of Users, Username: Admin, Response Code: 200
+Event: List of Users, Username: Admin, Response Code: 200
+Event: List of Users, Username: Admin, Response Code: 200
+Event: List of Users, Username: Admin, Response Code: 200
+Event: List of Users, Username: Admin, Response Code: 200
+Event: List of Users, Username: Admin, Response Code: 200
+Event: List of Users, Username: Admin, Response Code: 200
+Event: List of Users, Username: Admin, Response Code: 200
+Event: User Retrieved Successfully, Username: user_4, Response Code: 200
+Event: User Retrieval Error, Username: 8, Response Code: 404
+Event: List of Users, Username: Admin, Response Code: 200
+Event: List of Users, Username: Admin, Response Code: 200
+Event: List of Users, Username: Admin, Response Code: 200
+Event: User Retrieved Successfully, Username: user_2, Response Code: 200
+Event: List of Users, Username: Admin, Response Code: 200
+Event: List of Users, Username: Admin, Response Code: 200
+Event: List of Users, Username: Admin, Response Code: 200
+Event: List of Users, Username: Admin, Response Code: 200
+Event: List of Users, Username: Admin, Response Code: 200
+Event: List of Users, Username: Admin, Response Code: 200
+Event: List of Users, Username: Admin, Response Code: 200
+Event: List of Users, Username: Admin, Response Code: 200
+Event: List of Users, Username: Admin, Response Code: 200
+Event: List of Users, Username: Admin, Response Code: 200
+Event: List of Users, Username: Admin, Response Code: 200
+Event: List of Users, Username: Admin, Response Code: 200
+Event: List of Users, Username: Admin, Response Code: 200
+Event: List of Users, Username: Admin, Response Code: 200
+Event: List of Users, Username: Admin, Response Code: 200
+Event: List of Users, Username: Admin, Response Code: 200
+Event: List of Users, Username: Admin, Response Code: 200
+Event: List of Users, Username: Admin, Response Code: 200
+Event: List of Users, Username: Admin, Response Code: 200
+Event: List of Users, Username: Admin, Response Code: 200
+Event: List of Users, Username: Admin, Response Code: 200
+Event: List of Users, Username: Admin, Response Code: 200
+Event: List of Users, Username: Admin, Response Code: 200
+Event: User Retrieval Error, Username: 9, Response Code: 404
+Event: User Retrieval Error, Username: 7, Response Code: 404
+Event: User Retrieved Successfully, Username: user_3, Response Code: 200
+Event: User Retrieval Error, Username: 0, Response Code: 404
+Event: User Retrieval Error, Username: 6, Response Code: 404
+Event: User Retrieval Error, Username: 9, Response Code: 404
+Event: User Retrieval Error, Username: 7, Response Code: 404
+Event: User Retrieval Error, Username: 9, Response Code: 404
+Event: User Retrieval Error, Username: 9, Response Code: 404
+Event: User Retrieval Error, Username: 8, Response Code: 404
+Event: User Signup Successful, Username: user_8, Response Code: 200
+Event: User Signup Successful, Username: user_9, Response Code: 200
+Event: List of Users, Username: Admin, Response Code: 200
+Event: User Signup Successful, Username: user_6, Response Code: 200
+Event: List of Users, Username: Admin, Response Code: 200
+Event: User Login Failed: User not found, Username: user_5@mail.com, Response Code: 400
+Event: User Logged Successfully, Username: user_8, Response Code: 200
+Event: List of Users, Username: Admin, Response Code: 200
+Event: User Deleted Successfully, Username: user_8, Response Code: 200
+Event: User Deleted Successfully, Username: user_9, Response Code: 200
+Event: User Deleted Successfully, Username: user_6, Response Code: 200
+Event: Delete User Error, Username: 8, Response Code: 404
+Event: User Signup Successful, Username: user, Response Code: 200
+Event: User Login Failed: User not found, Username: 8, Response Code: 400
+Event: User Retrieval Error, Username: 8, Response Code: 404
+Event: User Retrieval Error, Username: 8, Response Code: 404
+Event: User Retrieval Error, Username: 7, Response Code: 404
+Event: User Retrieval Error, Username: 6, Response Code: 404
+Event: User Retrieval Error, Username: 10, Response Code: 404
+Event: User Retrieval Error, Username: 10, Response Code: 404
+Event: User Retrieval Error, Username: 10, Response Code: 404
+Event: User Retrieval Error, Username: 10, Response Code: 404
+Event: User Retrieval Error, Username: 8, Response Code: 404
+Event: User Retrieval Error, Username: 9, Response Code: 404
+Event: User Retrieval Error, Username: 9, Response Code: 404
+Event: User Retrieval Error, Username: 9, Response Code: 404
+Event: User Retrieval Error, Username: 9, Response Code: 404
+Event: User Retrieval Error, Username: 7, Response Code: 404
+Event: User Retrieved Successfully, Username: user, Response Code: 200
+Event: User Retrieval Error, Username: 6, Response Code: 404
+Event: User Retrieval Error, Username: 8, Response Code: 404
+Event: User Retrieval Error, Username: 11, Response Code: 404
+Event: User Retrieved Successfully, Username: user_2, Response Code: 200
+Event: User Retrieval Error, Username: 9, Response Code: 404
+Event: User Retrieved Successfully, Username: user_1, Response Code: 200
+Event: User Retrieved Successfully, Username: user_4, Response Code: 200
+Event: User Retrieval Error, Username: 7, Response Code: 404
+Event: User Retrieval Error, Username: 13, Response Code: 404
+Event: User Retrieved Successfully, Username: user_3, Response Code: 200
+Event: User Retrieval Error, Username: 9, Response Code: 404
+Event: User Retrieval Error, Username: 9, Response Code: 404
+Event: User Retrieval Error, Username: 12, Response Code: 404
+Event: User Retrieval Error, Username: 10, Response Code: 404
+Event: User Retrieval Error, Username: 8, Response Code: 404
+Event: User Retrieval Error, Username: 9, Response Code: 404
+Event: User Retrieval Error, Username: 9, Response Code: 404
+Event: User Retrieval Error, Username: 0, Response Code: 404
+Event: User Retrieval Error, Username: 0, Response Code: 404
+Event: User Retrieval Error, Username: 0, Response Code: 404
+Event: User Retrieval Error, Username: 0, Response Code: 404
+Event: User Retrieval Error, Username: 9, Response Code: 404
+Event: User Retrieval Error, Username: 9, Response Code: 404
+Event: User Retrieval Error, Username: 9, Response Code: 404
+Event: User Retrieval Error, Username: 9, Response Code: 404
+Event: User Retrieval Error, Username: 9, Response Code: 404
+Event: User Retrieval Error, Username: 9, Response Code: 404
+Event: User Retrieval Error, Username: 9, Response Code: 404
+Event: User Retrieved Successfully, Username: user_3, Response Code: 200
+Event: User Retrieval Error, Username: 9, Response Code: 404
+Event: User Retrieval Error, Username: 9, Response Code: 404
+Event: User Retrieval Error, Username: 9, Response Code: 404
+Event: User Retrieval Error, Username: 9, Response Code: 404
+Event: User Retrieval Error, Username: 9, Response Code: 404
+Event: User Retrieval Error, Username: 7, Response Code: 404
+Event: User Retrieval Error, Username: 7, Response Code: 404
+Event: User Retrieval Error, Username: 9, Response Code: 404
+Event: User Retrieval Error, Username: 9, Response Code: 404
+Event: User Retrieval Error, Username: 9, Response Code: 404
+Event: User Retrieval Error, Username: 8, Response Code: 404
+Event: User Retrieval Error, Username: 9, Response Code: 404
+Event: User Retrieval Error, Username: 7, Response Code: 404
+Event: User Retrieval Error, Username: 7, Response Code: 404
+Event: User Retrieval Error, Username: 6, Response Code: 404
+Event: User Retrieval Error, Username: 6, Response Code: 404
+Event: User Retrieval Error, Username: 7, Response Code: 404
+Event: User Retrieval Error, Username: 8, Response Code: 404
+Event: User Retrieval Error, Username: 9, Response Code: 404
+Event: User Retrieval Error, Username: 9, Response Code: 404
+Event: User Retrieval Error, Username: 7, Response Code: 404
+Event: User Retrieval Error, Username: 8, Response Code: 404
+Event: User Retrieval Error, Username: 9, Response Code: 404
+Event: User Retrieval Error, Username: 10, Response Code: 404
+Event: User Retrieval Error, Username: 10, Response Code: 404
+Event: User Retrieval Error, Username: 9, Response Code: 404
+Event: User Retrieval Error, Username: 7, Response Code: 404
+Event: User Retrieval Error, Username: 7, Response Code: 404
+Event: User Retrieval Error, Username: 7, Response Code: 404
+Event: User Retrieval Error, Username: 8, Response Code: 404
+Event: User Retrieval Error, Username: 12, Response Code: 404
+Event: User Retrieval Error, Username: 12, Response Code: 404
+Event: User Retrieval Error, Username: 13, Response Code: 404
+Event: User Retrieval Error, Username: 13, Response Code: 404
+Event: User Retrieval Error, Username: 15, Response Code: 404
+Event: User Retrieval Error, Username: 15, Response Code: 404
+Event: User Retrieval Error, Username: 15, Response Code: 404
+Event: User Retrieval Error, Username: 9, Response Code: 404
+Event: User Retrieval Error, Username: 9, Response Code: 404
+Event: User Retrieval Error, Username: 13, Response Code: 404
+Event: User Retrieval Error, Username: 12, Response Code: 404
+Event: User Retrieval Error, Username: 13, Response Code: 404
+Event: User Retrieval Error, Username: 13, Response Code: 404
+Event: User Retrieval Error, Username: 13, Response Code: 404
+Event: User Retrieval Error, Username: 8, Response Code: 404
+Event: User Retrieval Error, Username: 8, Response Code: 404
+Event: User Retrieval Error, Username: 9, Response Code: 404
+Event: User Retrieval Error, Username: 9, Response Code: 404
+Event: User Retrieval Error, Username: 10, Response Code: 404
+Event: User Retrieval Error, Username: 11, Response Code: 404
+Event: User Retrieval Error, Username: 11, Response Code: 404
+Event: User Retrieval Error, Username: 11, Response Code: 404
+Event: User Retrieval Error, Username: 8, Response Code: 404
+Event: User Retrieval Error, Username: 9, Response Code: 404
+Event: User Retrieval Error, Username: 10, Response Code: 404
+Event: User Retrieval Error, Username: 11, Response Code: 404
+Event: User Retrieval Error, Username: 12, Response Code: 404
+Event: User Retrieval Error, Username: 12, Response Code: 404
+Event: User Retrieval Error, Username: 13, Response Code: 404
+Event: User Retrieval Error, Username: 14, Response Code: 404
+Event: User Retrieval Error, Username: 14, Response Code: 404
+Event: User Retrieval Error, Username: 14, Response Code: 404
+Event: User Retrieval Error, Username: 15, Response Code: 404
+Event: User Retrieval Error, Username: 16, Response Code: 404
+Event: User Retrieval Error, Username: 17, Response Code: 404
+Event: User Retrieval Error, Username: 10, Response Code: 404
+Event: User Retrieval Error, Username: 11, Response Code: 404
+Event: User Retrieval Error, Username: 12, Response Code: 404
+Event: User Retrieval Error, Username: 12, Response Code: 404
+Event: User Retrieval Error, Username: 12, Response Code: 404
+Event: User Retrieval Error, Username: 13, Response Code: 404
+Event: User Retrieval Error, Username: 14, Response Code: 404
+Event: User Retrieval Error, Username: 15, Response Code: 404
+Event: User Retrieval Error, Username: 15, Response Code: 404
+Event: User Retrieval Error, Username: 16, Response Code: 404
+Event: User Retrieval Error, Username: 16, Response Code: 404
+Event: User Retrieval Error, Username: 17, Response Code: 404
+Event: User Retrieval Error, Username: 18, Response Code: 404
+Event: User Retrieval Error, Username: 7, Response Code: 404
+Event: User Retrieval Error, Username: 10, Response Code: 404
+Event: User Retrieval Error, Username: 6, Response Code: 404
+Event: User Retrieval Error, Username: 7, Response Code: 404
+Event: User Retrieval Error, Username: 8, Response Code: 404
+Event: User Retrieval Error, Username: 9, Response Code: 404
+Event: User Retrieval Error, Username: 9, Response Code: 404
+Event: User Retrieval Error, Username: 10, Response Code: 404
+Event: User Retrieval Error, Username: 11, Response Code: 404
+Event: User Retrieval Error, Username: 13, Response Code: 404
+Event: User Retrieval Error, Username: 13, Response Code: 404
+Event: User Retrieval Error, Username: 13, Response Code: 404
+Event: User Retrieval Error, Username: 13, Response Code: 404
+Event: User Retrieval Error, Username: 13, Response Code: 404
+Event: User Retrieval Error, Username: 9, Response Code: 404
+Event: User Retrieval Error, Username: 10, Response Code: 404
+Event: User Retrieval Error, Username: 11, Response Code: 404
+Event: User Retrieval Error, Username: 12, Response Code: 404
+Event: User Retrieval Error, Username: 7, Response Code: 404
+Event: User Retrieval Error, Username: 8, Response Code: 404
+Event: User Retrieval Error, Username: 9, Response Code: 404
+Event: User Retrieval Error, Username: 9, Response Code: 404
+Event: User Retrieval Error, Username: 9, Response Code: 404
+Event: User Retrieval Error, Username: 10, Response Code: 404
+Event: User Retrieval Error, Username: 10, Response Code: 404
+Event: User Retrieval Error, Username: 10, Response Code: 404
+Event: User Retrieval Error, Username: 10, Response Code: 404
+Event: User Retrieval Error, Username: 10, Response Code: 404
+Event: User Retrieval Error, Username: 10, Response Code: 404
+Event: User Retrieval Error, Username: 10, Response Code: 404
+Event: User Retrieval Error, Username: 10, Response Code: 404
+Event: User Retrieval Error, Username: 10, Response Code: 404
+Event: User Retrieval Error, Username: 10, Response Code: 404
+Event: User Retrieval Error, Username: 11, Response Code: 404
+Event: User Retrieval Error, Username: 11, Response Code: 404
+Event: User Retrieval Error, Username: 11, Response Code: 404
+Event: User Retrieval Error, Username: 11, Response Code: 404
+Event: User Retrieval Error, Username: 11, Response Code: 404
+Event: User Retrieval Error, Username: 11, Response Code: 404
+Event: User Retrieval Error, Username: 11, Response Code: 404
+Event: User Retrieval Error, Username: 10, Response Code: 404
+Event: User Retrieval Error, Username: 10, Response Code: 404
+Event: User Retrieval Error, Username: 10, Response Code: 404
+Event: User Retrieval Error, Username: 10, Response Code: 404
+Event: User Retrieval Error, Username: 10, Response Code: 404
+Event: User Retrieval Error, Username: 10, Response Code: 404
+Event: User Retrieval Error, Username: 10, Response Code: 404
+Event: User Retrieval Error, Username: 10, Response Code: 404
+Event: User Retrieval Error, Username: 12, Response Code: 404
+Event: User Retrieval Error, Username: 12, Response Code: 404
+Event: User Retrieval Error, Username: 12, Response Code: 404
+Event: User Retrieval Error, Username: 13, Response Code: 404
+Event: User Retrieval Error, Username: 15, Response Code: 404
+Event: User Retrieval Error, Username: 16, Response Code: 404
+Event: User Retrieval Error, Username: 10, Response Code: 404
+Event: User Retrieval Error, Username: 10, Response Code: 404
+Event: User Retrieval Error, Username: 13, Response Code: 404
+Event: User Retrieval Error, Username: 9, Response Code: 404
+Event: User Retrieval Error, Username: 10, Response Code: 404
+Event: User Retrieval Error, Username: 11, Response Code: 404
+Event: User Retrieval Error, Username: 12, Response Code: 404
+Event: User Retrieval Error, Username: 13, Response Code: 404
+Event: User Retrieval Error, Username: 14, Response Code: 404
+Event: User Retrieval Error, Username: 14, Response Code: 404
+Event: User Retrieved Successfully, Username: user_1, Response Code: 200
+Event: User Retrieved Successfully, Username: user_3, Response Code: 200
+Event: User Retrieved Successfully, Username: user_2, Response Code: 200
+Event: User Retrieved Successfully, Username: user, Response Code: 200
+Event: List of Users, Username: Admin, Response Code: 200
+Event: User Retrieved Successfully, Username: user_1, Response Code: 200
+Event: User Retrieved Successfully, Username: user_4, Response Code: 200
+Event: User Retrieval Error, Username: 6, Response Code: 404
+Event: User Retrieval Error, Username: 7, Response Code: 404
+Event: User Retrieval Error, Username: 7, Response Code: 404
+Event: User Retrieval Error, Username: 8, Response Code: 404
+Event: User Retrieval Error, Username: 9, Response Code: 404
+Event: User Retrieval Error, Username: 10, Response Code: 404
+Event: User Retrieval Error, Username: 11, Response Code: 404
+Event: User Retrieval Error, Username: 11, Response Code: 404
+Event: User Retrieval Error, Username: 11, Response Code: 404
+Event: User Retrieval Error, Username: 11, Response Code: 404
+Event: User Retrieval Error, Username: 11, Response Code: 404
+Event: User Retrieval Error, Username: 11, Response Code: 404
+Event: User Retrieval Error, Username: 11, Response Code: 404
+Event: User Retrieval Error, Username: 12, Response Code: 404
+Event: User Retrieval Error, Username: 12, Response Code: 404
+Event: User Retrieval Error, Username: 13, Response Code: 404
+Event: User Retrieval Error, Username: 13, Response Code: 404
+Event: User Retrieval Error, Username: 13, Response Code: 404
+Event: User Retrieval Error, Username: 14, Response Code: 404
+Event: User Retrieval Error, Username: 8, Response Code: 404
+Event: User Retrieval Error, Username: 9, Response Code: 404
+Event: User Retrieval Error, Username: 10, Response Code: 404
+Event: User Retrieval Error, Username: 10, Response Code: 404
+Event: User Retrieval Error, Username: 11, Response Code: 404
+Event: User Retrieval Error, Username: 11, Response Code: 404
+Event: User Retrieval Error, Username: 12, Response Code: 404
+Event: User Retrieval Error, Username: 12, Response Code: 404
+Event: User Retrieval Error, Username: 12, Response Code: 404
+Event: User Retrieval Error, Username: 12, Response Code: 404
+Event: User Retrieval Error, Username: 13, Response Code: 404
+Event: User Retrieval Error, Username: 13, Response Code: 404
+Event: User Retrieval Error, Username: 13, Response Code: 404
+Event: User Retrieval Error, Username: 14, Response Code: 404
+Event: User Retrieval Error, Username: 15, Response Code: 404
+Event: User Retrieval Error, Username: 15, Response Code: 404
+Event: User Retrieval Error, Username: 16, Response Code: 404
+Event: User Retrieval Error, Username: 8, Response Code: 404
+Event: User Retrieval Error, Username: 9, Response Code: 404
+Event: User Retrieval Error, Username: 10, Response Code: 404
+Event: User Retrieval Error, Username: 10, Response Code: 404
+Event: User Retrieval Error, Username: 10, Response Code: 404
+Event: User Retrieval Error, Username: 10, Response Code: 404
+Event: User Retrieval Error, Username: 11, Response Code: 404
+Event: User Retrieval Error, Username: 11, Response Code: 404
+Event: User Retrieval Error, Username: 12, Response Code: 404
+Event: User Retrieval Error, Username: 12, Response Code: 404
+Event: User Retrieval Error, Username: 12, Response Code: 404
+Event: User Retrieval Error, Username: 12, Response Code: 404
+Event: User Retrieval Error, Username: 13, Response Code: 404
+Event: User Retrieval Error, Username: 14, Response Code: 404
+Event: User Retrieval Error, Username: 8, Response Code: 404
+Event: User Retrieval Error, Username: 9, Response Code: 404
+Event: User Retrieval Error, Username: 10, Response Code: 404
+Event: User Retrieval Error, Username: 10, Response Code: 404
+Event: User Retrieval Error, Username: 11, Response Code: 404
+Event: User Retrieval Error, Username: 11, Response Code: 404
+Event: User Retrieval Error, Username: 8, Response Code: 404
+Event: User Retrieval Error, Username: 9, Response Code: 404
+Event: User Retrieval Error, Username: 10, Response Code: 404
+Event: User Retrieval Error, Username: 11, Response Code: 404
+Event: User Retrieval Error, Username: 12, Response Code: 404
+Event: User Retrieval Error, Username: 7, Response Code: 404
+Event: User Retrieval Error, Username: 7, Response Code: 404
+Event: User Retrieval Error, Username: 9, Response Code: 404
+Event: User Retrieval Error, Username: 10, Response Code: 404
+Event: User Retrieval Error, Username: 11, Response Code: 404
+Event: User Retrieval Error, Username: 7, Response Code: 404
+Event: User Retrieval Error, Username: 8, Response Code: 404
+Event: User Retrieval Error, Username: 8, Response Code: 404
+Event: User Retrieval Error, Username: 9, Response Code: 404
+Event: User Retrieval Error, Username: 14, Response Code: 404
+Event: User Retrieval Error, Username: 10, Response Code: 404
+Event: User Retrieval Error, Username: 11, Response Code: 404
+Event: User Retrieval Error, Username: 10, Response Code: 404
+Event: User Retrieval Error, Username: 11, Response Code: 404
+Event: User Retrieval Error, Username: 11, Response Code: 404
+Event: User Retrieval Error, Username: 12, Response Code: 404
+Event: User Retrieval Error, Username: 12, Response Code: 404
+Event: User Retrieval Error, Username: 13, Response Code: 404
+Event: User Retrieval Error, Username: 13, Response Code: 404
+Event: User Retrieval Error, Username: 8, Response Code: 404
+Event: User Retrieval Error, Username: 15, Response Code: 404
+Event: User Retrieval Error, Username: 20, Response Code: 404
+Event: User Retrieval Error, Username: 20, Response Code: 404
+Event: User Retrieval Error, Username: 9, Response Code: 404
+Event: User Retrieval Error, Username: 9, Response Code: 404
+Event: User Retrieval Error, Username: 15, Response Code: 404

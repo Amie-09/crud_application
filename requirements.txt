@@ -1,0 +1,14 @@
+fastapi
+psycopg2-binary
+sqlalchemy
+uvicorn
+splunk-sdk
+alembic
+requests
+passlib
+bcrypt
+splunk-hec-handler
+python-json-logger
+psutil
+boto3
+requests-toolbelt

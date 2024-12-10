@@ -1,0 +1,589 @@
+2024-10-16 20:42:06,646 - splunk_token - INFO - Event: Login Successful, Username: user_2@mail.com, Response Code: 200 - user_2@mail.com - 200
+2024-10-16 20:50:18,575 - splunk_token - INFO - Event: Login Successful, Username: user_2, Response Code: 200 - user_2 - 200
+2024-10-16 21:17:07,908 - splunk_token - INFO - Event: User Signup Successful, Username: user_6, Response Code: 200 - user_6 - 200
+2024-10-16 21:17:51,361 - splunk_token - INFO - Event: User Creation Successful, Username: user_7, Response Code: 200 - user_7 - 200
+2024-10-16 21:20:25,123 - splunk_token - INFO - Event: List of Users, Username: Admin, Response Code: 200 - Admin - 200
+2024-10-16 21:21:20,761 - splunk_token - INFO - Event: User Retrieval by ID, Username: user_3, Response Code: 200 - user_3 - 200
+2024-10-16 21:23:32,646 - splunk_token - INFO - Event: User Update by ID, Username: user_8, Response Code: 200 - user_8 - 200
+2024-10-16 21:23:58,571 - splunk_token - INFO - Event: User Deletion by ID, Username: user_8, Response Code: 200 - user_8 - 200
+2024-10-16 21:32:29,131 - splunk_token - INFO - Event: User Deletion by ID, Username: user_6, Response Code: 200 - user_6 - 200
+2024-10-16 21:36:54,765 - splunk_token - INFO - Event: User Deletion by ID, Username: user_5, Response Code: 200 - user_5 - 200
+2024-10-16 21:38:33,918 - splunk_token - INFO - Event: List of Users, Username: Admin, Response Code: 200 - Admin - 200
+2024-10-16 21:38:49,783 - splunk_token - INFO - Event: User Deletion by ID, Username: user_4, Response Code: 200 - user_4 - 200
+2024-10-16 21:40:55,851 - splunk_token - INFO - Event: User Creation Successful, Username: user_4, Response Code: 200 - user_4 - 200
+2024-10-16 21:58:02,756 - splunk_token - INFO - Event: User Deletion by ID, Username: user_4, Response Code: 200 - user_4 - 200
+2024-10-16 21:59:02,683 - splunk_token - INFO - Event: User Deletion by ID, Username: user_3, Response Code: 200 - user_3 - 200
+2024-10-16 21:59:07,297 - splunk_token - INFO - Event: User Deletion by ID, Username: user_2, Response Code: 200 - user_2 - 200
+2024-10-16 21:59:12,198 - splunk_token - INFO - Event: Delete User Error, Username: 1, Response Code: 404 - 1 - 404
+2024-10-16 21:59:29,460 - splunk_token - INFO - Event: List of Users, Username: Admin, Response Code: 200 - Admin - 200
+2024-10-16 22:00:14,847 - splunk_token - INFO - Event: signup_error, Username: user_1, Response Code: 500 - user_1 - 500
+2024-10-16 22:12:19,436 - splunk_token - INFO - Event: User Creation Successful, Username: user_1, Response Code: 200 - user_1 - 200
+2024-10-16 22:17:58,681 - splunk_token - INFO - Event: User Deletion by ID, Username: user_1, Response Code: 200 - user_1 - 200
+2024-10-16 22:19:22,615 - splunk_token - INFO - Event: User Creation Successful, Username: user_1, Response Code: 200 - user_1 - 200
+2024-10-16 22:20:18,917 - splunk_token - INFO - Event: User Signup Successful, Username: user_2, Response Code: 200 - user_2 - 200
+2024-10-16 22:22:46,103 - splunk_token - INFO - Event: Login Failed, Username: user_2@mail.com, Response Code: 400 - user_2@mail.com - 400
+2024-10-16 22:24:28,342 - splunk_token - INFO - Event: Login Successful, Username: user_1, Response Code: 200 - user_1 - 200
+2024-10-16 22:25:54,642 - splunk_token - INFO - Event: Login Failed, Username: user_2, Response Code: 400 - user_2 - 400
+2024-10-16 22:26:12,707 - splunk_token - INFO - Event: List of Users, Username: Admin, Response Code: 200 - Admin - 200
+2024-10-16 22:27:02,318 - splunk_token - INFO - Event: User Retrieval by ID, Username: user_1, Response Code: 200 - user_1 - 200
+2024-10-16 22:27:42,838 - splunk_token - INFO - Event: User Retrieval by ID, Username: user_2, Response Code: 200 - user_2 - 200
+2024-10-16 22:28:15,691 - splunk_token - INFO - Event: User Creation Successful, Username: user_3, Response Code: 200 - user_3 - 200
+2024-10-16 22:29:33,508 - splunk_token - INFO - Event: List of Users, Username: Admin, Response Code: 200 - Admin - 200
+2024-10-16 22:30:39,409 - splunk_token - INFO - Event: Login Failed, Username: user_2, Response Code: 400 - user_2 - 400
+2024-10-16 22:31:00,441 - splunk_token - INFO - Event: List of Users, Username: Admin, Response Code: 200 - Admin - 200
+2024-10-16 22:31:13,680 - splunk_token - INFO - Event: User Retrieval by ID, Username: user_2, Response Code: 200 - user_2 - 200
+2024-10-16 22:35:38,254 - splunk_token - INFO - Event: Login Failed, Username: user_2, Response Code: 400 - user_2 - 400
+2024-10-16 22:36:57,227 - splunk_token - INFO - Event: User Deletion by ID, Username: user_2, Response Code: 200 - user_2 - 200
+2024-10-16 22:37:10,780 - splunk_token - INFO - Event: List of Users, Username: Admin, Response Code: 200 - Admin - 200
+2024-10-16 22:37:36,349 - splunk_token - INFO - Event: User Signup Successful, Username: user_2, Response Code: 200 - user_2 - 200
+2024-10-16 22:37:54,545 - splunk_token - INFO - Event: User Retrieval Error, Username: 2, Response Code: 404 - 2 - 404
+2024-10-16 22:38:05,735 - splunk_token - INFO - Event: User Retrieval by ID, Username: user_2, Response Code: 200 - user_2 - 200
+2024-10-16 22:38:34,746 - splunk_token - INFO - Event: Login Failed, Username: user_2, Response Code: 400 - user_2 - 400
+2024-10-16 22:39:05,520 - splunk_token - INFO - Event: Login Successful, Username: user_3, Response Code: 200 - user_3 - 200
+2024-10-16 22:48:01,348 - splunk_token - INFO - Event: Login Failed, Username: user_2, Response Code: 400 - user_2 - 400
+2024-10-16 22:48:17,324 - splunk_token - INFO - Event: Login Successful, Username: user_3, Response Code: 200 - user_3 - 200
+2024-10-16 22:48:49,777 - splunk_token - INFO - Event: User Signup Successful, Username: user_4, Response Code: 200 - user_4 - 200
+2024-10-16 22:49:01,172 - splunk_token - INFO - Event: List of Users, Username: Admin, Response Code: 200 - Admin - 200
+2024-10-16 22:49:46,241 - splunk_token - INFO - Event: Login Failed, Username: user_4, Response Code: 400 - user_4 - 400
+2024-10-16 22:59:16,583 - splunk_token - INFO - Event: Login Failed, Username: user_4, Response Code: 400 - user_4 - 400
+2024-10-16 23:00:36,411 - splunk_token - INFO - Event: Login Successful, Username: user_3, Response Code: 200 - user_3 - 200
+2024-10-16 23:05:48,504 - splunk_token - INFO - Event: Creating user user_5 with hashed password: $2b$12$gsXQi7BJkiANa0nKfT9yyOcrOfsZs5DyZ/TcHUS7zuf/YxmOUsL4K, Username: user_5, Response Code: 200 - user_5 - 200
+2024-10-16 23:05:49,244 - splunk_token - INFO - Event: User Signup Successful, Username: user_5, Response Code: 200 - user_5 - 200
+2024-10-16 23:06:33,216 - splunk_token - INFO - Event: Login Failed, Username: user_5, Response Code: 400 - user_5 - 400
+2024-10-16 23:06:48,214 - splunk_token - INFO - Event: List of Users, Username: Admin, Response Code: 200 - Admin - 200
+2024-10-16 23:10:11,152 - splunk_token - INFO - Event: List of Users, Username: Admin, Response Code: 200 - Admin - 200
+2024-10-16 23:10:33,559 - splunk_token - INFO - Event: Creating user user_6 with hashed password: $2b$12$ND1mFNVMjEUd4XI4zMmnaeXMNAb8Pi1YhLRZC/MqkVNu0WtM3uZcS, Username: user_6, Response Code: 200 - user_6 - 200
+2024-10-16 23:10:34,712 - splunk_token - INFO - Event: User Signup Successful, Username: user_6, Response Code: 200 - user_6 - 200
+2024-10-16 23:11:06,803 - splunk_token - INFO - Event: Login Failed, Username: user_6, Response Code: 400 - user_6 - 400
+2024-10-16 23:11:15,612 - splunk_token - INFO - Event: List of Users, Username: Admin, Response Code: 200 - Admin - 200
+2024-10-16 23:12:39,466 - splunk_token - INFO - Event: Creating user user_7 with hashed password: $2b$12$hMSIwV34LRlKp8bVgNsaluNISk74q7GYW4cxlzIwrNnRrekd.lu0q, Username: user_7, Response Code: 200 - user_7 - 200
+2024-10-16 23:12:40,201 - splunk_token - INFO - Event: User Signup Successful, Username: user_7, Response Code: 200 - user_7 - 200
+2024-10-16 23:13:28,718 - splunk_token - INFO - Event: Login Failed, Username: user_7, Response Code: 400 - user_7 - 400
+2024-10-16 23:13:39,826 - splunk_token - INFO - Event: List of Users, Username: Admin, Response Code: 200 - Admin - 200
+2024-10-16 23:17:40,398 - splunk_token - INFO - Event: Creating user user_8 with hashed password: $2b$12$ESmdMqNspTBty9yb1S/poe5KT3huD00PZvslBY6uehiu1OxzOHcAq, Username: user_8, Response Code: 200 - user_8 - 200
+2024-10-16 23:17:41,072 - splunk_token - INFO - Event: User Signup Successful, Username: user_8, Response Code: 200 - user_8 - 200
+2024-10-16 23:18:10,647 - splunk_token - INFO - Event: Login Failed, Username: user_8, Response Code: 400 - user_8 - 400
+2024-10-16 23:18:37,560 - splunk_token - INFO - Event: List of Users, Username: Admin, Response Code: 200 - Admin - 200
+2024-10-16 23:21:47,246 - splunk_token - INFO - Event: Creating user user_9 with hashed password: $2b$12$zfHCDKckkM2QZBTdRShgG.4wj9KYbS6G6TUwArZdOoc4bYtup4b8W, Username: user_9, Response Code: 200 - user_9 - 200
+2024-10-16 23:21:48,125 - splunk_token - INFO - Event: User Signup Successful, Username: user_9, Response Code: 200 - user_9 - 200
+2024-10-16 23:22:12,554 - splunk_token - INFO - Event: Login Failed, Username: user_9, Response Code: 400 - user_9 - 400
+2024-10-16 23:26:05,406 - splunk_token - INFO - Event: Login Failed, Username: user_9, Response Code: 400 - user_9 - 400
+2024-10-16 23:26:30,743 - splunk_token - INFO - Event: Creating user user_10 with hashed password: $2b$12$9VUk6.KSYFJVE4S5uPrCqOEF.20mEpRLBLki..MHa1lckXADYyRhC, Username: user_10, Response Code: 200 - user_10 - 200
+2024-10-16 23:26:31,750 - splunk_token - INFO - Event: User Signup Successful, Username: user_10, Response Code: 200 - user_10 - 200
+2024-10-16 23:27:00,010 - splunk_token - INFO - Event: Login Failed, Username: user_10, Response Code: 400 - user_10 - 400
+2024-10-16 23:30:17,362 - splunk_token - INFO - Event: Creating user user_11 with hashed password: $2b$12$dos41MDlnvVhEbrO49y2uOHOqRwutRUt1rojF6qwO4kOVFqYCVBYS, Username: user_11, Response Code: 200 - user_11 - 200
+2024-10-16 23:30:18,085 - splunk_token - INFO - Event: User Signup Successful, Username: user_11, Response Code: 200 - user_11 - 200
+2024-10-16 23:37:31,501 - splunk_token - INFO - Event: Login Failed, Username: user_11, Response Code: 400 - user_11 - 400
+2024-10-16 23:38:35,932 - splunk_token - INFO - Event: Creating user user_12 with hashed password: $2b$12$6m5gvE8mT77Z33kpWviO.eYDr.nFlQG.bch7mjWE/1qY1YxERUfBC, Username: user_12, Response Code: 200 - user_12 - 200
+2024-10-16 23:38:36,901 - splunk_token - INFO - Event: User Signup Successful, Username: user_12, Response Code: 200 - user_12 - 200
+2024-10-16 23:39:05,130 - splunk_token - INFO - Event: Login Failed, Username: user_12, Response Code: 400 - user_12 - 400
+2024-10-16 23:39:20,105 - splunk_token - INFO - Event: List of Users, Username: Admin, Response Code: 200 - Admin - 200
+2024-10-16 23:42:58,925 - splunk_token - INFO - Event: Creating user user_13 with hashed password: $2b$12$ifm4BERxPDlFocjlYl5QgOF2jBH6QM2LyQVxTe8I1x3sBSbQJ.lqe, Username: user_13, Response Code: 200 - user_13 - 200
+2024-10-16 23:43:01,147 - splunk_token - INFO - Event: User Signup Successful, Username: user_13, Response Code: 200 - user_13 - 200
+2024-10-16 23:43:34,260 - splunk_token - INFO - Event: Login failed: Incorrect password, Username: user_13@mail.com, Response Code: 400 - user_13@mail.com - 400
+2024-10-16 23:46:02,165 - splunk_token - INFO - Event: Unexpected signup error: name 'User' is not defined, Username: user_14, Response Code: 500 - user_14 - 500
+2024-10-16 23:47:05,846 - splunk_token - INFO - Event: Unexpected signup error: (psycopg2.errors.UniqueViolation) duplicate key value violates unique constraint "users_pkey"
+DETAIL:  Key (id)=(8) already exists.
+
+[SQL: INSERT INTO users (username, email, password) VALUES (%(username)s, %(email)s, %(password)s) RETURNING users.id]
+[parameters: {'username': 'user_14', 'email': 'user_14@mail.com', 'password': '$2b$12$D/gdyGY9M6JV5zAITu5AsOmTtBviSk3QVd82k7x/Csw87/REH9lwW'}]
+(Background on this error at: https://sqlalche.me/e/20/gkpj), Username: user_14, Response Code: 500 - user_14 - 500
+2024-10-16 23:47:47,150 - splunk_token - INFO - Event: Unexpected signup error: (psycopg2.errors.UniqueViolation) duplicate key value violates unique constraint "users_pkey"
+DETAIL:  Key (id)=(9) already exists.
+
+[SQL: INSERT INTO users (username, email, password) VALUES (%(username)s, %(email)s, %(password)s) RETURNING users.id]
+[parameters: {'username': 'user_15', 'email': 'user_15@mail.com', 'password': '$2b$12$KndpEaRko9ps33oT7VCjpedwY/0Pu7i1FwOWHekPOtC4GtRej4st6'}]
+(Background on this error at: https://sqlalche.me/e/20/gkpj), Username: user_15, Response Code: 500 - user_15 - 500
+2024-10-16 23:49:41,540 - splunk_token - INFO - Event: Unexpected signup error: (psycopg2.errors.UniqueViolation) duplicate key value violates unique constraint "users_pkey"
+DETAIL:  Key (id)=(10) already exists.
+
+[SQL: INSERT INTO users (username, email, password) VALUES (%(username)s, %(email)s, %(password)s) RETURNING users.id]
+[parameters: {'username': 'user_15', 'email': 'user_15@mail.com', 'password': '$2b$12$xs.eVWAtCPHmjVSSel8nMuOvb5oXcSgjMDl4GhRDudxoPpKrSTCTO'}]
+(Background on this error at: https://sqlalche.me/e/20/gkpj), Username: user_15, Response Code: 500 - user_15 - 500
+2024-10-16 23:50:02,996 - splunk_token - INFO - Event: Unexpected signup error: (psycopg2.errors.UniqueViolation) duplicate key value violates unique constraint "users_pkey"
+DETAIL:  Key (id)=(11) already exists.
+
+[SQL: INSERT INTO users (username, email, password) VALUES (%(username)s, %(email)s, %(password)s) RETURNING users.id]
+[parameters: {'username': 'user_16', 'email': 'user_16@mail.com', 'password': '$2b$12$z0I2Nw3LWvOwRcvDKS0ap.FsiSG5t89j.KKrwqr7NYGdfZktZA4lC'}]
+(Background on this error at: https://sqlalche.me/e/20/gkpj), Username: user_16, Response Code: 500 - user_16 - 500
+2024-10-16 23:52:49,900 - splunk_token - INFO - Event: Creating user user_16 with hashed password: $2b$12$/cOP9FneMB4XX0CPUSpU4e5MKl8h5X629g3JK9lV70uXhV7Px4Zhq, Username: user_16, Response Code: 200 - user_16 - 200
+2024-10-16 23:52:49,965 - splunk_token - INFO - Event: User Signup Successful, Username: user_16, Response Code: 200 - user_16 - 200
+2024-10-16 23:53:23,684 - splunk_token - INFO - Event: User logged in successfully, Username: user_16, Response Code: 200 - user_16 - 200
+2024-10-16 23:53:38,277 - splunk_token - INFO - Event: List of Users, Username: Admin, Response Code: 200 - Admin - 200
+2024-10-16 23:53:56,431 - splunk_token - INFO - Event: User Retrieval by ID, Username: user_4, Response Code: 200 - user_4 - 200
+2024-10-16 23:54:04,784 - splunk_token - INFO - Event: User Retrieval by ID, Username: user_11, Response Code: 200 - user_11 - 200
+2024-10-16 23:54:32,270 - splunk_token - INFO - Event: User Creation Successful, Username: user_17, Response Code: 200 - user_17 - 200
+2024-10-16 23:55:01,529 - splunk_token - INFO - Event: User logged in successfully, Username: user_17, Response Code: 200 - user_17 - 200
+2024-10-16 23:55:13,522 - splunk_token - INFO - Event: List of Users, Username: Admin, Response Code: 200 - Admin - 200
+2024-10-16 23:56:15,441 - splunk_token - INFO - Event: User Update by ID, Username: user, Response Code: 200 - user - 200
+2024-10-16 23:56:49,702 - splunk_token - INFO - Event: User Deletion by ID, Username: user_17, Response Code: 200 - user_17 - 200
+2024-10-16 23:56:59,421 - splunk_token - INFO - Event: User Deletion by ID, Username: user_16, Response Code: 200 - user_16 - 200
+2024-10-16 23:57:08,339 - splunk_token - INFO - Event: List of Users, Username: Admin, Response Code: 200 - Admin - 200
+2024-10-17 09:29:46,890 - splunk_token - INFO - Event: List of Users, Username: Admin, Response Code: 200 - Admin - 200
+2024-10-17 09:31:14,385 - splunk_token - INFO - Event: User Deletion by ID, Username: user_13, Response Code: 200 - user_13 - 200
+2024-10-17 09:31:19,184 - splunk_token - INFO - Event: User Deletion by ID, Username: user_12, Response Code: 200 - user_12 - 200
+2024-10-17 09:31:23,418 - splunk_token - INFO - Event: User Deletion by ID, Username: user_11, Response Code: 200 - user_11 - 200
+2024-10-17 09:31:29,022 - splunk_token - INFO - Event: User Deletion by ID, Username: user_10, Response Code: 200 - user_10 - 200
+2024-10-17 09:31:33,459 - splunk_token - INFO - Event: User Deletion by ID, Username: user_9, Response Code: 200 - user_9 - 200
+2024-10-17 09:31:38,039 - splunk_token - INFO - Event: User Deletion by ID, Username: user_8, Response Code: 200 - user_8 - 200
+2024-10-17 09:31:42,066 - splunk_token - INFO - Event: User Deletion by ID, Username: user_7, Response Code: 200 - user_7 - 200
+2024-10-17 09:31:45,181 - splunk_token - INFO - Event: User Deletion by ID, Username: user_6, Response Code: 200 - user_6 - 200
+2024-10-17 09:31:48,048 - splunk_token - INFO - Event: User Deletion by ID, Username: user_5, Response Code: 200 - user_5 - 200
+2024-10-17 09:31:52,166 - splunk_token - INFO - Event: User Deletion by ID, Username: user_4, Response Code: 200 - user_4 - 200
+2024-10-17 09:31:55,080 - splunk_token - INFO - Event: User Deletion by ID, Username: user_2, Response Code: 200 - user_2 - 200
+2024-10-17 09:31:59,184 - splunk_token - INFO - Event: User Deletion by ID, Username: user_3, Response Code: 200 - user_3 - 200
+2024-10-17 09:32:13,183 - splunk_token - INFO - Event: List of Users, Username: Admin, Response Code: 200 - Admin - 200
+2024-10-17 09:32:42,685 - splunk_token - INFO - Event: User Signup Successful, Username: user_1, Response Code: 200 - user_1 - 200
+2024-10-17 09:32:53,927 - splunk_token - INFO - Event: List of Users, Username: Admin, Response Code: 200 - Admin - 200
+2024-10-17 09:33:22,513 - splunk_token - INFO - Event: User logged in successfully, Username: user_1, Response Code: 200 - user_1 - 200
+2024-10-17 09:33:54,283 - splunk_token - INFO - Event: User Creation Successful, Username: user_2, Response Code: 200 - user_2 - 200
+2024-10-17 09:34:07,696 - splunk_token - INFO - Event: User Retrieval by ID, Username: user, Response Code: 200 - user - 200
+2024-10-17 09:34:13,292 - splunk_token - INFO - Event: User Retrieval by ID, Username: user_1, Response Code: 200 - user_1 - 200
+2024-10-17 09:34:17,892 - splunk_token - INFO - Event: User Retrieval by ID, Username: user_2, Response Code: 200 - user_2 - 200
+2024-10-17 09:35:07,416 - splunk_token - INFO - Event: User Update by ID, Username: user_3, Response Code: 200 - user_3 - 200
+2024-10-17 09:35:44,876 - splunk_token - INFO - Event: User Update by ID, Username: user_2, Response Code: 200 - user_2 - 200
+2024-10-17 09:35:53,039 - splunk_token - INFO - Event: User Update by ID, Username: user_1, Response Code: 200 - user_1 - 200
+2024-10-17 09:36:06,621 - splunk_token - INFO - Event: User Retrieval by ID, Username: user_1, Response Code: 200 - user_1 - 200
+2024-10-17 09:36:11,422 - splunk_token - INFO - Event: User Retrieval by ID, Username: user_2, Response Code: 200 - user_2 - 200
+2024-10-17 09:36:15,311 - splunk_token - INFO - Event: User Retrieval by ID, Username: user_3, Response Code: 200 - user_3 - 200
+2024-10-17 09:36:19,350 - splunk_token - INFO - Event: User Retrieval Error, Username: 4, Response Code: 404 - 4 - 404
+2024-10-17 11:18:16,358 - splunk_token - INFO - Event: List of Users, Username: Admin, Response Code: 200 - Admin - 200
+2024-10-17 11:18:51,282 - splunk_token - INFO - Event: User Signup Successful, Username: user_4, Response Code: 200 - user_4 - 200
+2024-10-17 11:19:18,854 - splunk_token - INFO - Event: User Logged Successfully, Username: user_4, Response Code: 200 - user_4 - 200
+2024-10-17 11:19:27,413 - splunk_token - INFO - Event: List of Users, Username: Admin, Response Code: 200 - Admin - 200
+2024-10-17 11:19:40,319 - splunk_token - INFO - Event: User Retrieved Successfully, Username: user_1, Response Code: 200 - user_1 - 200
+2024-10-17 11:19:44,538 - splunk_token - INFO - Event: User Retrieved Successfully, Username: user_4, Response Code: 200 - user_4 - 200
+2024-10-17 11:19:49,219 - splunk_token - INFO - Event: User Retrieval Error, Username: 5, Response Code: 404 - 5 - 404
+2024-10-17 11:19:53,523 - splunk_token - INFO - Event: User Retrieved Successfully, Username: user_2, Response Code: 200 - user_2 - 200
+2024-10-17 11:20:17,822 - splunk_token - INFO - Event: User Creation Successful, Username: user_5, Response Code: 200 - user_5 - 200
+2024-10-17 11:20:27,205 - splunk_token - INFO - Event: List of Users, Username: Admin, Response Code: 200 - Admin - 200
+2024-10-17 11:21:05,291 - splunk_token - INFO - Event: Login failed: Incorrect password, Username: user_4@mail.com, Response Code: 400 - user_4@mail.com - 400
+2024-10-17 11:21:12,690 - splunk_token - INFO - Event: User Logged Successfully, Username: user_5, Response Code: 200 - user_5 - 200
+2024-10-17 11:21:46,287 - splunk_token - INFO - Event: User Deleted Successfully, Username: user_2, Response Code: 200 - user_2 - 200
+2024-10-17 11:22:01,023 - splunk_token - INFO - Event: User Creation Successful, Username: user_2, Response Code: 200 - user_2 - 200
+2024-10-17 11:22:18,975 - splunk_token - INFO - Event: User Updated Successfully, Username: user_6, Response Code: 200 - user_6 - 200
+2024-10-17 11:22:30,987 - splunk_token - INFO - Event: User Retrieved Successfully, Username: user_6, Response Code: 200 - user_6 - 200
+2024-10-17 11:22:37,717 - splunk_token - INFO - Event: List of Users, Username: Admin, Response Code: 200 - Admin - 200
+2024-10-17 12:33:58,672 - splunk_token - INFO - Event: List of Users, Username: Admin, Response Code: 200 - Admin - 200
+2024-10-17 12:34:24,960 - splunk_token - INFO - Event: Login failed: Incorrect password, Username: user_5@mail.com, Response Code: 400 - user_5@mail.com - 400
+2024-10-17 12:34:32,603 - splunk_token - INFO - Event: Login failed: Incorrect password, Username: user_6@mail.com, Response Code: 400 - user_6@mail.com - 400
+2024-10-17 12:34:43,122 - splunk_token - INFO - Event: Login failed: Incorrect password, Username: user_6@mail.com, Response Code: 400 - user_6@mail.com - 400
+2024-10-17 12:35:35,457 - splunk_token - INFO - Event: List of Users, Username: Admin, Response Code: 200 - Admin - 200
+2024-10-17 12:35:50,865 - splunk_token - INFO - Event: User Deleted Successfully, Username: user_6, Response Code: 200 - user_6 - 200
+2024-10-17 12:35:54,863 - splunk_token - INFO - Event: User Deleted Successfully, Username: user_5, Response Code: 200 - user_5 - 200
+2024-10-17 12:35:58,833 - splunk_token - INFO - Event: User Deleted Successfully, Username: user_4, Response Code: 200 - user_4 - 200
+2024-10-17 12:36:02,879 - splunk_token - INFO - Event: User Deleted Successfully, Username: user_3, Response Code: 200 - user_3 - 200
+2024-10-17 12:36:06,937 - splunk_token - INFO - Event: Delete User Error, Username: 2, Response Code: 404 - 2 - 404
+2024-10-17 12:36:36,893 - splunk_token - INFO - Event: List of Users, Username: Admin, Response Code: 200 - Admin - 200
+2024-10-17 12:36:58,742 - splunk_token - INFO - Event: User Creation Successful, Username: user_2, Response Code: 200 - user_2 - 200
+2024-10-17 14:26:30,437 - splunk_token - INFO - Event: List of Users, Username: Admin, Response Code: 200 - Admin - 200
+2024-10-17 14:26:57,212 - splunk_token - INFO - Event: User Signup Successful, Username: user_3, Response Code: 200 - user_3 - 200
+2024-10-17 14:27:18,657 - splunk_token - INFO - Event: User Creation Successful, Username: user_4, Response Code: 200 - user_4 - 200
+2024-10-17 14:27:26,269 - splunk_token - INFO - Event: User Retrieved Successfully, Username: user_2, Response Code: 200 - user_2 - 200
+2024-10-17 14:27:30,676 - splunk_token - INFO - Event: User Retrieved Successfully, Username: user_4, Response Code: 200 - user_4 - 200
+2024-10-17 14:28:02,262 - splunk_token - INFO - Event: User Logged Successfully, Username: user_3, Response Code: 200 - user_3 - 200
+2024-10-17 14:28:18,279 - splunk_token - INFO - Event: User Login Failed: Incorrect password, Username: user_3@mail.com, Response Code: 400 - user_3@mail.com - 400
+2024-10-17 14:28:28,320 - splunk_token - INFO - Event: User Logged Successfully, Username: user_2, Response Code: 200 - user_2 - 200
+2024-10-17 14:28:53,139 - splunk_token - INFO - Event: User Signup Successful, Username: user, Response Code: 200 - user - 200
+2024-10-17 14:29:01,706 - splunk_token - INFO - Event: List of Users, Username: Admin, Response Code: 200 - Admin - 200
+2024-10-17 14:29:53,195 - splunk_token - INFO - Event: User Updated Successfully, Username: user_5, Response Code: 200 - user_5 - 200
+2024-10-17 14:30:01,636 - splunk_token - INFO - Event: User Retrieved Successfully, Username: user_5, Response Code: 200 - user_5 - 200
+2024-10-17 14:30:12,300 - splunk_token - INFO - Event: Delete User Error, Username: 6, Response Code: 404 - 6 - 404
+2024-10-17 14:30:17,122 - splunk_token - INFO - Event: User Deleted Successfully, Username: user_5, Response Code: 200 - user_5 - 200
+2024-10-17 15:27:05,109 - splunk_token - INFO - Event: List of Users, Username: Admin, Response Code: 200 - Admin - 200
+2024-10-17 15:33:47,311 - splunk_token - INFO - Event: List of Users, Username: Admin, Response Code: 200 - Admin - 200
+2024-10-21 11:19:15,983 - splunk_token - INFO - Event: List of Users, Username: Admin, Response Code: 200 - Admin - 200
+2024-10-21 11:19:43,949 - splunk_token - INFO - Event: User Signup Successful, Username: user_5, Response Code: 200 - user_5 - 200
+2024-10-21 11:20:08,416 - splunk_token - INFO - Event: User Login Failed: User not found, Username: user_5@mail.com, Response Code: 400 - user_5@mail.com - 400
+2024-10-21 11:21:22,592 - splunk_token - INFO - Event: User Logged Successfully, Username: user_5, Response Code: 200 - user_5 - 200
+2024-10-21 11:21:39,996 - splunk_token - INFO - Event: User Retrieved Successfully, Username: user_5, Response Code: 200 - user_5 - 200
+2024-10-21 11:21:59,983 - splunk_token - INFO - Event: User Updated Successfully, Username: user_6, Response Code: 200 - user_6 - 200
+2024-10-21 11:22:08,176 - splunk_token - INFO - Event: User Deleted Successfully, Username: user_6, Response Code: 200 - user_6 - 200
+2024-10-21 11:22:18,031 - splunk_token - INFO - Event: User Retrieval Error, Username: 5, Response Code: 404 - 5 - 404
+2024-10-21 11:22:23,524 - splunk_token - INFO - Event: List of Users, Username: Admin, Response Code: 200 - Admin - 200
+2024-10-25 17:38:24,974 - splunk_token - INFO - Event: List of Users, Username: Admin, Response Code: 200 - Admin - 200
+2024-10-25 17:40:20,785 - splunk_token - INFO - Event: User Login Failed: Incorrect password, Username: user_3@mail.com, Response Code: 400 - user_3@mail.com - 400
+2024-10-25 17:40:31,097 - splunk_token - INFO - Event: User Retrieved Successfully, Username: user_4, Response Code: 200 - user_4 - 200
+2024-10-25 20:54:23,539 - splunk_token - INFO - Event: List of Users, Username: Admin, Response Code: 200 - Admin - 200
+2024-10-25 21:10:51,441 - splunk_token - INFO - Event: User Login Failed: User not found, Username: user-1@mail.com, Response Code: 400 - user-1@mail.com - 400
+2024-10-25 21:10:59,728 - splunk_token - INFO - Event: User Logged Successfully, Username: user_1, Response Code: 200 - user_1 - 200
+2024-10-25 21:11:09,439 - splunk_token - INFO - Event: User Retrieval Error, Username: 5, Response Code: 404 - 5 - 404
+2024-10-25 21:12:43,076 - splunk_token - INFO - Event: List of Users, Username: Admin, Response Code: 200 - Admin - 200
+2024-11-11 18:01:59,643 - splunk_token - INFO - Event: List of Users, Username: Admin, Response Code: 200 - Admin - 200
+2024-11-11 18:03:29,820 - splunk_token - INFO - Event: List of Users, Username: Admin, Response Code: 200 - Admin - 200
+2024-11-11 18:03:32,848 - splunk_token - INFO - Event: List of Users, Username: Admin, Response Code: 200 - Admin - 200
+2024-11-11 18:06:05,212 - splunk_token - INFO - Event: List of Users, Username: Admin, Response Code: 200 - Admin - 200
+2024-11-11 18:11:09,711 - splunk_token - INFO - Event: List of Users, Username: Admin, Response Code: 200 - Admin - 200
+2024-11-11 18:12:34,079 - splunk_token - INFO - Event: List of Users, Username: Admin, Response Code: 200 - Admin - 200
+2024-11-11 18:13:04,126 - splunk_token - INFO - Event: List of Users, Username: Admin, Response Code: 200 - Admin - 200
+2024-11-11 18:14:43,409 - splunk_token - INFO - Event: List of Users, Username: Admin, Response Code: 200 - Admin - 200
+2024-11-11 18:15:40,066 - splunk_token - INFO - Event: List of Users, Username: Admin, Response Code: 200 - Admin - 200
+2024-11-12 11:29:52,942 - splunk_token - INFO - Event: List of Users, Username: Admin, Response Code: 200 - Admin - 200
+2024-11-12 11:31:02,445 - splunk_token - INFO - Event: List of Users, Username: Admin, Response Code: 200 - Admin - 200
+2024-11-12 11:34:03,801 - splunk_token - INFO - Event: List of Users, Username: Admin, Response Code: 200 - Admin - 200
+2024-11-12 11:35:06,093 - splunk_token - INFO - Event: List of Users, Username: Admin, Response Code: 200 - Admin - 200
+2024-11-12 11:35:16,652 - splunk_token - INFO - Event: User Retrieved Successfully, Username: user_2, Response Code: 200 - user_2 - 200
+2024-11-12 12:33:43,692 - splunk_token - INFO - Event: List of Users, Username: Admin, Response Code: 200 - Admin - 200
+2024-11-12 12:40:56,469 - splunk_token - INFO - Event: List of Users, Username: Admin, Response Code: 200 - Admin - 200
+2024-11-12 17:12:56,772 - splunk_token - INFO - Event: User Retrieval Error, Username: 8, Response Code: 404 - 8 - 404
+2024-11-12 17:13:03,031 - splunk_token - INFO - Event: User Retrieval Error, Username: 5, Response Code: 404 - 5 - 404
+2024-11-12 17:13:07,702 - splunk_token - INFO - Event: User Retrieved Successfully, Username: user_3, Response Code: 200 - user_3 - 200
+2024-11-12 17:14:52,173 - splunk_token - INFO - Event: List of Users, Username: Admin, Response Code: 200 - Admin - 200
+2024-11-12 17:15:31,200 - splunk_token - INFO - Event: List of Users, Username: Admin, Response Code: 200 - Admin - 200
+2024-11-12 17:15:33,093 - splunk_token - INFO - Event: List of Users, Username: Admin, Response Code: 200 - Admin - 200
+2024-11-12 17:15:34,268 - splunk_token - INFO - Event: List of Users, Username: Admin, Response Code: 200 - Admin - 200
+2024-11-12 17:17:10,675 - splunk_token - INFO - Event: List of Users, Username: Admin, Response Code: 200 - Admin - 200
+2024-11-12 17:20:48,319 - splunk_token - INFO - Event: List of Users, Username: Admin, Response Code: 200 - Admin - 200
+2024-11-12 17:23:39,744 - splunk_token - INFO - Event: List of Users, Username: Admin, Response Code: 200 - Admin - 200
+2024-11-12 17:25:02,355 - splunk_token - INFO - Event: List of Users, Username: Admin, Response Code: 200 - Admin - 200
+2024-11-12 17:25:31,209 - splunk_token - INFO - Event: List of Users, Username: Admin, Response Code: 200 - Admin - 200
+2024-11-12 17:25:48,980 - splunk_token - INFO - Event: List of Users, Username: Admin, Response Code: 200 - Admin - 200
+2024-11-12 17:28:09,759 - splunk_token - INFO - Event: List of Users, Username: Admin, Response Code: 200 - Admin - 200
+2024-11-12 17:28:11,891 - splunk_token - INFO - Event: List of Users, Username: Admin, Response Code: 200 - Admin - 200
+2024-11-12 17:30:07,545 - splunk_token - INFO - Event: List of Users, Username: Admin, Response Code: 200 - Admin - 200
+2024-11-12 17:30:44,656 - splunk_token - INFO - Event: List of Users, Username: Admin, Response Code: 200 - Admin - 200
+2024-11-12 20:32:47,021 - splunk_token - INFO - Event: List of Users, Username: Admin, Response Code: 200 - Admin - 200
+2024-11-12 20:57:00,210 - splunk_token - INFO - Event: List of Users, Username: Admin, Response Code: 200 - Admin - 200
+2024-11-12 21:00:19,249 - splunk_token - INFO - Event: List of Users, Username: Admin, Response Code: 200 - Admin - 200
+2024-11-12 21:14:28,530 - splunk_token - INFO - Event: List of Users, Username: Admin, Response Code: 200 - Admin - 200
+2024-11-12 21:15:02,587 - splunk_token - INFO - Event: List of Users, Username: Admin, Response Code: 200 - Admin - 200
+2024-11-12 21:15:14,031 - splunk_token - INFO - Event: List of Users, Username: Admin, Response Code: 200 - Admin - 200
+2024-11-12 21:18:37,445 - splunk_token - INFO - Event: List of Users, Username: Admin, Response Code: 200 - Admin - 200
+2024-11-12 21:25:19,357 - splunk_token - INFO - Event: List of Users, Username: Admin, Response Code: 200 - Admin - 200
+2024-11-12 21:27:59,348 - splunk_token - INFO - Event: List of Users, Username: Admin, Response Code: 200 - Admin - 200
+2024-11-12 21:28:59,454 - splunk_token - INFO - Event: List of Users, Username: Admin, Response Code: 200 - Admin - 200
+2024-11-12 21:29:54,952 - splunk_token - INFO - Event: List of Users, Username: Admin, Response Code: 200 - Admin - 200
+2024-11-12 21:30:11,367 - splunk_token - INFO - Event: List of Users, Username: Admin, Response Code: 200 - Admin - 200
+2024-11-13 16:24:20,797 - splunk_token - INFO - Event: User Retrieved Successfully, Username: user_4, Response Code: 200 - user_4 - 200
+2024-11-13 16:24:24,663 - splunk_token - INFO - Event: User Retrieval Error, Username: 8, Response Code: 404 - 8 - 404
+2024-11-13 16:24:29,246 - splunk_token - INFO - Event: List of Users, Username: Admin, Response Code: 200 - Admin - 200
+2024-11-13 16:24:50,493 - splunk_token - INFO - Event: List of Users, Username: Admin, Response Code: 200 - Admin - 200
+2024-11-13 16:25:20,203 - splunk_token - INFO - Event: List of Users, Username: Admin, Response Code: 200 - Admin - 200
+2024-11-13 16:26:14,186 - splunk_token - INFO - Event: User Retrieved Successfully, Username: user_2, Response Code: 200 - user_2 - 200
+2024-11-13 16:26:22,401 - splunk_token - INFO - Event: List of Users, Username: Admin, Response Code: 200 - Admin - 200
+2024-11-13 16:29:02,517 - splunk_token - INFO - Event: List of Users, Username: Admin, Response Code: 200 - Admin - 200
+2024-11-13 16:29:37,420 - splunk_token - INFO - Event: List of Users, Username: Admin, Response Code: 200 - Admin - 200
+2024-11-13 16:29:58,097 - splunk_token - INFO - Event: List of Users, Username: Admin, Response Code: 200 - Admin - 200
+2024-11-13 16:30:01,598 - splunk_token - INFO - Event: List of Users, Username: Admin, Response Code: 200 - Admin - 200
+2024-11-13 16:30:10,792 - splunk_token - INFO - Event: List of Users, Username: Admin, Response Code: 200 - Admin - 200
+2024-11-13 16:30:47,333 - splunk_token - INFO - Event: List of Users, Username: Admin, Response Code: 200 - Admin - 200
+2024-11-13 16:35:04,909 - splunk_token - INFO - Event: List of Users, Username: Admin, Response Code: 200 - Admin - 200
+2024-11-13 16:39:17,080 - splunk_token - INFO - Event: List of Users, Username: Admin, Response Code: 200 - Admin - 200
+2024-11-13 16:39:36,166 - splunk_token - INFO - Event: List of Users, Username: Admin, Response Code: 200 - Admin - 200
+2024-11-13 16:40:00,022 - splunk_token - INFO - Event: List of Users, Username: Admin, Response Code: 200 - Admin - 200
+2024-11-13 16:40:28,230 - splunk_token - INFO - Event: List of Users, Username: Admin, Response Code: 200 - Admin - 200
+2024-11-13 16:40:32,329 - splunk_token - INFO - Event: List of Users, Username: Admin, Response Code: 200 - Admin - 200
+2024-11-13 16:43:30,486 - splunk_token - INFO - Event: List of Users, Username: Admin, Response Code: 200 - Admin - 200
+2024-11-13 16:45:08,799 - splunk_token - INFO - Event: List of Users, Username: Admin, Response Code: 200 - Admin - 200
+2024-11-13 16:45:29,080 - splunk_token - INFO - Event: List of Users, Username: Admin, Response Code: 200 - Admin - 200
+2024-11-13 16:47:16,396 - splunk_token - INFO - Event: List of Users, Username: Admin, Response Code: 200 - Admin - 200
+2024-11-13 16:47:17,857 - splunk_token - INFO - Event: List of Users, Username: Admin, Response Code: 200 - Admin - 200
+2024-11-13 16:47:35,092 - splunk_token - INFO - Event: List of Users, Username: Admin, Response Code: 200 - Admin - 200
+2024-11-13 16:47:40,219 - splunk_token - INFO - Event: List of Users, Username: Admin, Response Code: 200 - Admin - 200
+2024-11-13 17:28:38,825 - splunk_token - INFO - Event: List of Users, Username: Admin, Response Code: 200 - Admin - 200
+2024-11-13 17:29:01,129 - splunk_token - INFO - Event: List of Users, Username: Admin, Response Code: 200 - Admin - 200
+2024-11-13 17:31:42,198 - splunk_token - INFO - Event: List of Users, Username: Admin, Response Code: 200 - Admin - 200
+2024-11-14 12:53:35,607 - splunk_token - INFO - Event: User Retrieval Error, Username: 9, Response Code: 404 - 9 - 404
+2024-11-14 12:56:15,676 - splunk_token - INFO - Event: User Retrieval Error, Username: 7, Response Code: 404 - 7 - 404
+2024-11-14 12:56:31,790 - splunk_token - INFO - Event: User Retrieved Successfully, Username: user_3, Response Code: 200 - user_3 - 200
+2024-11-14 12:56:39,273 - splunk_token - INFO - Event: User Retrieval Error, Username: 0, Response Code: 404 - 0 - 404
+2024-11-14 12:58:24,439 - splunk_token - INFO - Event: User Retrieval Error, Username: 6, Response Code: 404 - 6 - 404
+2024-11-14 12:59:12,803 - splunk_token - INFO - Event: User Retrieval Error, Username: 9, Response Code: 404 - 9 - 404
+2024-11-14 13:00:01,324 - splunk_token - INFO - Event: User Retrieval Error, Username: 7, Response Code: 404 - 7 - 404
+2024-11-14 13:00:07,106 - splunk_token - INFO - Event: User Retrieval Error, Username: 9, Response Code: 404 - 9 - 404
+2024-11-14 13:00:37,212 - splunk_token - INFO - Event: User Retrieval Error, Username: 9, Response Code: 404 - 9 - 404
+2024-11-14 13:00:53,914 - splunk_token - INFO - Event: User Retrieval Error, Username: 8, Response Code: 404 - 8 - 404
+2024-11-14 13:03:21,537 - splunk_token - INFO - Event: User Signup Successful, Username: user_8, Response Code: 200 - user_8 - 200
+2024-11-14 13:03:37,441 - splunk_token - INFO - Event: User Signup Successful, Username: user_9, Response Code: 200 - user_9 - 200
+2024-11-14 13:03:43,576 - splunk_token - INFO - Event: List of Users, Username: Admin, Response Code: 200 - Admin - 200
+2024-11-14 13:04:07,320 - splunk_token - INFO - Event: User Signup Successful, Username: user_6, Response Code: 200 - user_6 - 200
+2024-11-14 13:04:13,411 - splunk_token - INFO - Event: List of Users, Username: Admin, Response Code: 200 - Admin - 200
+2024-11-14 13:04:47,709 - splunk_token - INFO - Event: User Login Failed: User not found, Username: user_5@mail.com, Response Code: 400 - user_5@mail.com - 400
+2024-11-14 13:05:06,966 - splunk_token - INFO - Event: User Logged Successfully, Username: user_8, Response Code: 200 - user_8 - 200
+2024-11-14 13:05:17,151 - splunk_token - INFO - Event: List of Users, Username: Admin, Response Code: 200 - Admin - 200
+2024-11-14 13:05:37,120 - splunk_token - INFO - Event: User Deleted Successfully, Username: user_8, Response Code: 200 - user_8 - 200
+2024-11-14 13:05:39,734 - splunk_token - INFO - Event: User Deleted Successfully, Username: user_9, Response Code: 200 - user_9 - 200
+2024-11-14 13:05:44,396 - splunk_token - INFO - Event: User Deleted Successfully, Username: user_6, Response Code: 200 - user_6 - 200
+2024-11-14 13:05:48,973 - splunk_token - INFO - Event: Delete User Error, Username: 8, Response Code: 404 - 8 - 404
+2024-11-14 13:08:00,388 - splunk_token - INFO - Event: User Signup Successful, Username: user, Response Code: 200 - user - 200
+2024-11-14 13:08:31,528 - splunk_token - INFO - Event: User Login Failed: User not found, Username: 8, Response Code: 400 - 8 - 400
+2024-11-14 13:09:23,328 - splunk_token - INFO - Event: User Retrieval Error, Username: 8, Response Code: 404 - 8 - 404
+2024-11-14 13:09:33,096 - splunk_token - INFO - Event: User Retrieval Error, Username: 8, Response Code: 404 - 8 - 404
+2024-11-14 13:09:53,146 - splunk_token - INFO - Event: User Retrieval Error, Username: 7, Response Code: 404 - 7 - 404
+2024-11-14 13:10:39,438 - splunk_token - INFO - Event: User Retrieval Error, Username: 6, Response Code: 404 - 6 - 404
+2024-11-14 13:55:40,375 - splunk_token - INFO - Event: User Retrieval Error, Username: 10, Response Code: 404 - 10 - 404
+2024-11-14 13:56:06,064 - splunk_token - INFO - Event: User Retrieval Error, Username: 10, Response Code: 404 - 10 - 404
+2024-11-14 13:56:18,225 - splunk_token - INFO - Event: User Retrieval Error, Username: 10, Response Code: 404 - 10 - 404
+2024-11-14 13:58:51,726 - splunk_token - INFO - Event: User Retrieval Error, Username: 10, Response Code: 404 - 10 - 404
+2024-11-14 13:59:08,547 - splunk_token - INFO - Event: User Retrieval Error, Username: 8, Response Code: 404 - 8 - 404
+2024-11-14 13:59:14,882 - splunk_token - INFO - Event: User Retrieval Error, Username: 9, Response Code: 404 - 9 - 404
+2024-11-14 14:00:03,172 - splunk_token - INFO - Event: User Retrieval Error, Username: 9, Response Code: 404 - 9 - 404
+2024-11-14 14:00:22,042 - splunk_token - INFO - Event: User Retrieval Error, Username: 9, Response Code: 404 - 9 - 404
+2024-11-14 14:01:03,613 - splunk_token - INFO - Event: User Retrieval Error, Username: 9, Response Code: 404 - 9 - 404
+2024-11-14 14:02:48,303 - splunk_token - INFO - Event: User Retrieval Error, Username: 7, Response Code: 404 - 7 - 404
+2024-11-14 14:02:54,742 - splunk_token - INFO - Event: User Retrieved Successfully, Username: user, Response Code: 200 - user - 200
+2024-11-14 14:03:00,081 - splunk_token - INFO - Event: User Retrieval Error, Username: 6, Response Code: 404 - 6 - 404
+2024-11-14 14:03:05,384 - splunk_token - INFO - Event: User Retrieval Error, Username: 8, Response Code: 404 - 8 - 404
+2024-11-14 14:03:09,964 - splunk_token - INFO - Event: User Retrieval Error, Username: 11, Response Code: 404 - 11 - 404
+2024-11-14 14:03:14,638 - splunk_token - INFO - Event: User Retrieved Successfully, Username: user_2, Response Code: 200 - user_2 - 200
+2024-11-14 14:03:20,087 - splunk_token - INFO - Event: User Retrieval Error, Username: 9, Response Code: 404 - 9 - 404
+2024-11-14 14:03:41,654 - splunk_token - INFO - Event: User Retrieved Successfully, Username: user_1, Response Code: 200 - user_1 - 200
+2024-11-14 14:03:47,342 - splunk_token - INFO - Event: User Retrieved Successfully, Username: user_4, Response Code: 200 - user_4 - 200
+2024-11-14 14:03:50,760 - splunk_token - INFO - Event: User Retrieval Error, Username: 7, Response Code: 404 - 7 - 404
+2024-11-14 14:03:54,583 - splunk_token - INFO - Event: User Retrieval Error, Username: 13, Response Code: 404 - 13 - 404
+2024-11-14 14:03:57,779 - splunk_token - INFO - Event: User Retrieved Successfully, Username: user_3, Response Code: 200 - user_3 - 200
+2024-11-14 14:04:00,777 - splunk_token - INFO - Event: User Retrieval Error, Username: 9, Response Code: 404 - 9 - 404
+2024-11-14 14:12:08,017 - splunk_token - INFO - Event: User Retrieval Error, Username: 9, Response Code: 404 - 9 - 404
+2024-11-14 14:12:21,116 - splunk_token - INFO - Event: User Retrieval Error, Username: 12, Response Code: 404 - 12 - 404
+2024-11-14 14:12:26,851 - splunk_token - INFO - Event: User Retrieval Error, Username: 10, Response Code: 404 - 10 - 404
+2024-11-14 14:12:35,824 - splunk_token - INFO - Event: User Retrieval Error, Username: 8, Response Code: 404 - 8 - 404
+2024-11-14 14:12:38,475 - splunk_token - INFO - Event: User Retrieval Error, Username: 9, Response Code: 404 - 9 - 404
+2024-11-14 14:21:25,414 - splunk_token - INFO - Event: User Retrieval Error, Username: 9, Response Code: 404 - 9 - 404
+2024-11-14 14:22:33,963 - splunk_token - INFO - Event: User Retrieval Error, Username: 0, Response Code: 404 - 0 - 404
+2024-11-14 14:22:49,610 - splunk_token - INFO - Event: User Retrieval Error, Username: 0, Response Code: 404 - 0 - 404
+2024-11-14 14:24:55,458 - splunk_token - INFO - Event: User Retrieval Error, Username: 0, Response Code: 404 - 0 - 404
+2024-11-14 14:26:04,028 - splunk_token - INFO - Event: User Retrieval Error, Username: 0, Response Code: 404 - 0 - 404
+2024-11-14 14:45:54,617 - splunk_token - INFO - Event: User Retrieval Error, Username: 9, Response Code: 404 - 9 - 404
+2024-11-14 14:49:16,512 - splunk_token - INFO - Event: User Retrieval Error, Username: 9, Response Code: 404 - 9 - 404
+2024-11-14 14:49:43,069 - splunk_token - INFO - Event: User Retrieval Error, Username: 9, Response Code: 404 - 9 - 404
+2024-11-14 14:49:55,164 - splunk_token - INFO - Event: User Retrieval Error, Username: 9, Response Code: 404 - 9 - 404
+2024-11-14 14:49:59,741 - splunk_token - INFO - Event: User Retrieval Error, Username: 9, Response Code: 404 - 9 - 404
+2024-11-14 14:50:21,087 - splunk_token - INFO - Event: User Retrieval Error, Username: 9, Response Code: 404 - 9 - 404
+2024-11-14 14:50:46,967 - splunk_token - INFO - Event: User Retrieval Error, Username: 9, Response Code: 404 - 9 - 404
+2024-11-14 14:58:26,768 - splunk_token - INFO - Event: User Retrieved Successfully, Username: user_3, Response Code: 200 - user_3 - 200
+2024-11-14 15:00:33,584 - splunk_token - INFO - Event: User Retrieval Error, Username: 9, Response Code: 404 - 9 - 404
+2024-11-14 15:01:05,411 - splunk_token - INFO - Event: User Retrieval Error, Username: 9, Response Code: 404 - 9 - 404
+2024-11-14 15:11:10,448 - splunk_token - INFO - Event: User Retrieval Error, Username: 9, Response Code: 404 - 9 - 404
+2024-11-14 15:11:41,277 - splunk_token - INFO - Event: User Retrieval Error, Username: 9, Response Code: 404 - 9 - 404
+2024-11-14 15:12:30,692 - splunk_token - INFO - Event: User Retrieval Error, Username: 9, Response Code: 404 - 9 - 404
+2024-11-14 15:13:10,064 - splunk_token - INFO - Event: User Retrieval Error, Username: 7, Response Code: 404 - 7 - 404
+2024-11-14 15:15:24,671 - splunk_token - INFO - Event: User Retrieval Error, Username: 7, Response Code: 404 - 7 - 404
+2024-11-14 15:15:40,085 - splunk_token - INFO - Event: User Retrieval Error, Username: 9, Response Code: 404 - 9 - 404
+2024-11-14 15:15:46,774 - splunk_token - INFO - Event: User Retrieval Error, Username: 9, Response Code: 404 - 9 - 404
+2024-11-14 15:30:09,222 - splunk_token - INFO - Event: User Retrieval Error, Username: 9, Response Code: 404 - 9 - 404
+2024-11-14 15:30:23,695 - splunk_token - INFO - Event: User Retrieval Error, Username: 8, Response Code: 404 - 8 - 404
+2024-11-14 15:30:39,709 - splunk_token - INFO - Event: User Retrieval Error, Username: 9, Response Code: 404 - 9 - 404
+2024-11-14 15:39:35,507 - splunk_token - INFO - Event: User Retrieval Error, Username: 7, Response Code: 404 - 7 - 404
+2024-11-14 15:39:36,771 - splunk_token - INFO - Event: User Retrieval Error, Username: 7, Response Code: 404 - 7 - 404
+2024-11-14 15:39:42,703 - splunk_token - INFO - Event: User Retrieval Error, Username: 6, Response Code: 404 - 6 - 404
+2024-11-14 15:40:00,793 - splunk_token - INFO - Event: User Retrieval Error, Username: 6, Response Code: 404 - 6 - 404
+2024-11-14 15:40:05,750 - splunk_token - INFO - Event: User Retrieval Error, Username: 7, Response Code: 404 - 7 - 404
+2024-11-14 15:40:09,463 - splunk_token - INFO - Event: User Retrieval Error, Username: 8, Response Code: 404 - 8 - 404
+2024-11-14 15:40:24,474 - splunk_token - INFO - Event: User Retrieval Error, Username: 9, Response Code: 404 - 9 - 404
+2024-11-14 15:42:23,232 - splunk_token - INFO - Event: User Retrieval Error, Username: 9, Response Code: 404 - 9 - 404
+2024-11-14 15:43:17,684 - splunk_token - INFO - Event: User Retrieval Error, Username: 7, Response Code: 404 - 7 - 404
+2024-11-14 15:43:30,164 - splunk_token - INFO - Event: User Retrieval Error, Username: 8, Response Code: 404 - 8 - 404
+2024-11-14 15:43:38,298 - splunk_token - INFO - Event: User Retrieval Error, Username: 9, Response Code: 404 - 9 - 404
+2024-11-14 15:43:41,415 - splunk_token - INFO - Event: User Retrieval Error, Username: 10, Response Code: 404 - 10 - 404
+2024-11-14 15:47:21,360 - splunk_token - INFO - Event: User Retrieval Error, Username: 10, Response Code: 404 - 10 - 404
+2024-11-14 15:48:03,346 - splunk_token - INFO - Event: User Retrieval Error, Username: 9, Response Code: 404 - 9 - 404
+2024-11-14 15:48:58,516 - splunk_token - INFO - Event: User Retrieval Error, Username: 7, Response Code: 404 - 7 - 404
+2024-11-14 15:49:50,397 - splunk_token - INFO - Event: User Retrieval Error, Username: 7, Response Code: 404 - 7 - 404
+2024-11-14 15:50:07,221 - splunk_token - INFO - Event: User Retrieval Error, Username: 7, Response Code: 404 - 7 - 404
+2024-11-14 15:50:25,265 - splunk_token - INFO - Event: User Retrieval Error, Username: 8, Response Code: 404 - 8 - 404
+2024-11-14 15:51:17,920 - splunk_token - INFO - Event: User Retrieval Error, Username: 12, Response Code: 404 - 12 - 404
+2024-11-14 15:53:37,717 - splunk_token - INFO - Event: User Retrieval Error, Username: 12, Response Code: 404 - 12 - 404
+2024-11-14 15:54:18,316 - splunk_token - INFO - Event: User Retrieval Error, Username: 13, Response Code: 404 - 13 - 404
+2024-11-14 15:54:35,562 - splunk_token - INFO - Event: User Retrieval Error, Username: 13, Response Code: 404 - 13 - 404
+2024-11-14 15:54:56,851 - splunk_token - INFO - Event: User Retrieval Error, Username: 15, Response Code: 404 - 15 - 404
+2024-11-14 15:55:42,176 - splunk_token - INFO - Event: User Retrieval Error, Username: 15, Response Code: 404 - 15 - 404
+2024-11-14 15:56:50,985 - splunk_token - INFO - Event: User Retrieval Error, Username: 15, Response Code: 404 - 15 - 404
+2024-11-14 15:57:04,204 - splunk_token - INFO - Event: User Retrieval Error, Username: 9, Response Code: 404 - 9 - 404
+2024-11-14 15:57:23,389 - splunk_token - INFO - Event: User Retrieval Error, Username: 9, Response Code: 404 - 9 - 404
+2024-11-14 16:00:01,483 - splunk_token - INFO - Event: User Retrieval Error, Username: 13, Response Code: 404 - 13 - 404
+2024-11-14 16:00:17,190 - splunk_token - INFO - Event: User Retrieval Error, Username: 12, Response Code: 404 - 12 - 404
+2024-11-14 16:13:13,245 - splunk_token - INFO - Event: User Retrieval Error, Username: 13, Response Code: 404 - 13 - 404
+2024-11-14 16:13:50,302 - splunk_token - INFO - Event: User Retrieval Error, Username: 13, Response Code: 404 - 13 - 404
+2024-11-14 16:14:18,441 - splunk_token - INFO - Event: User Retrieval Error, Username: 13, Response Code: 404 - 13 - 404
+2024-11-14 16:44:02,923 - splunk_token - INFO - Event: User Retrieval Error, Username: 8, Response Code: 404 - 8 - 404
+2024-11-14 16:44:30,332 - splunk_token - INFO - Event: User Retrieval Error, Username: 8, Response Code: 404 - 8 - 404
+2024-11-14 16:44:56,747 - splunk_token - INFO - Event: User Retrieval Error, Username: 9, Response Code: 404 - 9 - 404
+2024-11-14 16:46:22,016 - splunk_token - INFO - Event: User Retrieval Error, Username: 9, Response Code: 404 - 9 - 404
+2024-11-14 16:52:02,790 - splunk_token - INFO - Event: User Retrieval Error, Username: 10, Response Code: 404 - 10 - 404
+2024-11-14 16:53:10,724 - splunk_token - INFO - Event: User Retrieval Error, Username: 11, Response Code: 404 - 11 - 404
+2024-11-14 16:53:25,067 - splunk_token - INFO - Event: User Retrieval Error, Username: 11, Response Code: 404 - 11 - 404
+2024-11-14 17:00:00,805 - splunk_token - INFO - Event: User Retrieval Error, Username: 11, Response Code: 404 - 11 - 404
+2024-11-15 10:25:38,879 - splunk_token - INFO - Event: User Retrieval Error, Username: 8, Response Code: 404 - 8 - 404
+2024-11-15 10:29:54,846 - splunk_token - INFO - Event: User Retrieval Error, Username: 9, Response Code: 404 - 9 - 404
+2024-11-15 10:30:01,879 - splunk_token - INFO - Event: User Retrieval Error, Username: 10, Response Code: 404 - 10 - 404
+2024-11-15 10:30:10,175 - splunk_token - INFO - Event: User Retrieval Error, Username: 11, Response Code: 404 - 11 - 404
+2024-11-15 10:30:49,650 - splunk_token - INFO - Event: User Retrieval Error, Username: 12, Response Code: 404 - 12 - 404
+2024-11-15 10:32:17,015 - splunk_token - INFO - Event: User Retrieval Error, Username: 12, Response Code: 404 - 12 - 404
+2024-11-15 10:32:28,226 - splunk_token - INFO - Event: User Retrieval Error, Username: 13, Response Code: 404 - 13 - 404
+2024-11-15 10:32:45,731 - splunk_token - INFO - Event: User Retrieval Error, Username: 14, Response Code: 404 - 14 - 404
+2024-11-15 10:38:32,128 - splunk_token - INFO - Event: User Retrieval Error, Username: 14, Response Code: 404 - 14 - 404
+2024-11-15 10:38:39,454 - splunk_token - INFO - Event: User Retrieval Error, Username: 14, Response Code: 404 - 14 - 404
+2024-11-15 10:38:51,897 - splunk_token - INFO - Event: User Retrieval Error, Username: 15, Response Code: 404 - 15 - 404
+2024-11-15 10:38:57,972 - splunk_token - INFO - Event: User Retrieval Error, Username: 16, Response Code: 404 - 16 - 404
+2024-11-15 10:39:09,627 - splunk_token - INFO - Event: User Retrieval Error, Username: 17, Response Code: 404 - 17 - 404
+2024-11-15 10:45:02,720 - splunk_token - INFO - Event: User Retrieval Error, Username: 10, Response Code: 404 - 10 - 404
+2024-11-15 10:45:11,935 - splunk_token - INFO - Event: User Retrieval Error, Username: 11, Response Code: 404 - 11 - 404
+2024-11-15 10:45:30,062 - splunk_token - INFO - Event: User Retrieval Error, Username: 12, Response Code: 404 - 12 - 404
+2024-11-15 10:45:52,479 - splunk_token - INFO - Event: User Retrieval Error, Username: 12, Response Code: 404 - 12 - 404
+2024-11-15 11:07:38,781 - splunk_token - INFO - Event: User Retrieval Error, Username: 12, Response Code: 404 - 12 - 404
+2024-11-15 11:07:52,512 - splunk_token - INFO - Event: User Retrieval Error, Username: 13, Response Code: 404 - 13 - 404
+2024-11-15 11:08:02,445 - splunk_token - INFO - Event: User Retrieval Error, Username: 14, Response Code: 404 - 14 - 404
+2024-11-15 11:08:31,828 - splunk_token - INFO - Event: User Retrieval Error, Username: 15, Response Code: 404 - 15 - 404
+2024-11-15 11:10:10,568 - splunk_token - INFO - Event: User Retrieval Error, Username: 15, Response Code: 404 - 15 - 404
+2024-11-15 11:10:19,714 - splunk_token - INFO - Event: User Retrieval Error, Username: 16, Response Code: 404 - 16 - 404
+2024-11-15 11:10:26,386 - splunk_token - INFO - Event: User Retrieval Error, Username: 16, Response Code: 404 - 16 - 404
+2024-11-15 11:11:08,112 - splunk_token - INFO - Event: User Retrieval Error, Username: 17, Response Code: 404 - 17 - 404
+2024-11-15 11:11:24,320 - splunk_token - INFO - Event: User Retrieval Error, Username: 18, Response Code: 404 - 18 - 404
+2024-11-18 11:11:57,880 - splunk_token - INFO - Event: User Retrieval Error, Username: 7, Response Code: 404 - 7 - 404
+2024-11-18 11:14:47,979 - splunk_token - INFO - Event: User Retrieval Error, Username: 10, Response Code: 404 - 10 - 404
+2024-11-18 11:16:46,440 - splunk_token - INFO - Event: User Retrieval Error, Username: 6, Response Code: 404 - 6 - 404
+2024-11-18 11:16:53,969 - splunk_token - INFO - Event: User Retrieval Error, Username: 7, Response Code: 404 - 7 - 404
+2024-11-18 11:16:59,658 - splunk_token - INFO - Event: User Retrieval Error, Username: 8, Response Code: 404 - 8 - 404
+2024-11-18 11:17:05,308 - splunk_token - INFO - Event: User Retrieval Error, Username: 9, Response Code: 404 - 9 - 404
+2024-11-18 11:17:16,447 - splunk_token - INFO - Event: User Retrieval Error, Username: 9, Response Code: 404 - 9 - 404
+2024-11-18 11:17:28,502 - splunk_token - INFO - Event: User Retrieval Error, Username: 10, Response Code: 404 - 10 - 404
+2024-11-18 11:17:32,166 - splunk_token - INFO - Event: User Retrieval Error, Username: 11, Response Code: 404 - 11 - 404
+2024-11-18 11:22:01,450 - splunk_token - INFO - Event: User Retrieval Error, Username: 13, Response Code: 404 - 13 - 404
+2024-11-18 11:22:28,389 - splunk_token - INFO - Event: User Retrieval Error, Username: 13, Response Code: 404 - 13 - 404
+2024-11-18 11:23:05,636 - splunk_token - INFO - Event: User Retrieval Error, Username: 13, Response Code: 404 - 13 - 404
+2024-11-18 11:24:24,755 - splunk_token - INFO - Event: User Retrieval Error, Username: 13, Response Code: 404 - 13 - 404
+2024-11-18 11:28:06,576 - splunk_token - INFO - Event: User Retrieval Error, Username: 13, Response Code: 404 - 13 - 404
+2024-11-18 13:28:29,501 - splunk_token - INFO - Event: User Retrieval Error, Username: 9, Response Code: 404 - 9 - 404
+2024-11-18 13:29:12,666 - splunk_token - INFO - Event: User Retrieval Error, Username: 10, Response Code: 404 - 10 - 404
+2024-11-18 13:30:05,159 - splunk_token - INFO - Event: User Retrieval Error, Username: 11, Response Code: 404 - 11 - 404
+2024-11-18 13:31:50,313 - splunk_token - INFO - Event: User Retrieval Error, Username: 12, Response Code: 404 - 12 - 404
+2024-11-18 13:56:38,970 - splunk_token - INFO - Event: User Retrieval Error, Username: 7, Response Code: 404 - 7 - 404
+2024-11-18 13:57:17,562 - splunk_token - INFO - Event: User Retrieval Error, Username: 8, Response Code: 404 - 8 - 404
+2024-11-18 13:57:39,199 - splunk_token - INFO - Event: User Retrieval Error, Username: 9, Response Code: 404 - 9 - 404
+2024-11-18 14:13:55,185 - splunk_token - INFO - Event: User Retrieval Error, Username: 9, Response Code: 404 - 9 - 404
+2024-11-18 14:17:03,701 - splunk_token - INFO - Event: User Retrieval Error, Username: 9, Response Code: 404 - 9 - 404
+2024-11-18 14:17:52,226 - splunk_token - INFO - Event: User Retrieval Error, Username: 10, Response Code: 404 - 10 - 404
+2024-11-18 14:18:39,898 - splunk_token - INFO - Event: User Retrieval Error, Username: 10, Response Code: 404 - 10 - 404
+2024-11-18 14:18:53,349 - splunk_token - INFO - Event: User Retrieval Error, Username: 10, Response Code: 404 - 10 - 404
+2024-11-18 14:19:24,520 - splunk_token - INFO - Event: User Retrieval Error, Username: 10, Response Code: 404 - 10 - 404
+2024-11-18 14:20:30,325 - splunk_token - INFO - Event: User Retrieval Error, Username: 10, Response Code: 404 - 10 - 404
+2024-11-18 14:22:07,570 - splunk_token - INFO - Event: User Retrieval Error, Username: 10, Response Code: 404 - 10 - 404
+2024-11-18 14:22:20,811 - splunk_token - INFO - Event: User Retrieval Error, Username: 10, Response Code: 404 - 10 - 404
+2024-11-18 14:22:38,680 - splunk_token - INFO - Event: User Retrieval Error, Username: 10, Response Code: 404 - 10 - 404
+2024-11-18 14:23:26,643 - splunk_token - INFO - Event: User Retrieval Error, Username: 10, Response Code: 404 - 10 - 404
+2024-11-18 14:26:40,173 - splunk_token - INFO - Event: User Retrieval Error, Username: 10, Response Code: 404 - 10 - 404
+2024-11-18 14:26:51,408 - splunk_token - INFO - Event: User Retrieval Error, Username: 11, Response Code: 404 - 11 - 404
+2024-11-18 14:27:03,617 - splunk_token - INFO - Event: User Retrieval Error, Username: 11, Response Code: 404 - 11 - 404
+2024-11-18 14:27:08,758 - splunk_token - INFO - Event: User Retrieval Error, Username: 11, Response Code: 404 - 11 - 404
+2024-11-18 14:27:45,992 - splunk_token - INFO - Event: User Retrieval Error, Username: 11, Response Code: 404 - 11 - 404
+2024-11-18 14:27:51,616 - splunk_token - INFO - Event: User Retrieval Error, Username: 11, Response Code: 404 - 11 - 404
+2024-11-18 14:27:57,571 - splunk_token - INFO - Event: User Retrieval Error, Username: 11, Response Code: 404 - 11 - 404
+2024-11-18 14:28:11,445 - splunk_token - INFO - Event: User Retrieval Error, Username: 11, Response Code: 404 - 11 - 404
+2024-11-18 15:00:06,514 - splunk_token - INFO - Event: User Retrieval Error, Username: 10, Response Code: 404 - 10 - 404
+2024-11-18 15:00:14,508 - splunk_token - INFO - Event: User Retrieval Error, Username: 10, Response Code: 404 - 10 - 404
+2024-11-18 15:00:22,501 - splunk_token - INFO - Event: User Retrieval Error, Username: 10, Response Code: 404 - 10 - 404
+2024-11-18 15:00:46,160 - splunk_token - INFO - Event: User Retrieval Error, Username: 10, Response Code: 404 - 10 - 404
+2024-11-18 15:15:00,955 - splunk_token - INFO - Event: User Retrieval Error, Username: 10, Response Code: 404 - 10 - 404
+2024-11-18 15:15:11,833 - splunk_token - INFO - Event: User Retrieval Error, Username: 10, Response Code: 404 - 10 - 404
+2024-11-18 15:15:29,083 - splunk_token - INFO - Event: User Retrieval Error, Username: 10, Response Code: 404 - 10 - 404
+2024-11-18 15:15:44,361 - splunk_token - INFO - Event: User Retrieval Error, Username: 10, Response Code: 404 - 10 - 404
+2024-11-18 15:30:01,182 - splunk_token - INFO - Event: User Retrieval Error, Username: 12, Response Code: 404 - 12 - 404
+2024-11-18 15:30:13,161 - splunk_token - INFO - Event: User Retrieval Error, Username: 12, Response Code: 404 - 12 - 404
+2024-11-18 15:30:21,845 - splunk_token - INFO - Event: User Retrieval Error, Username: 12, Response Code: 404 - 12 - 404
+2024-11-18 15:34:35,794 - splunk_token - INFO - Event: User Retrieval Error, Username: 13, Response Code: 404 - 13 - 404
+2024-11-18 16:02:35,576 - splunk_token - INFO - Event: User Retrieval Error, Username: 15, Response Code: 404 - 15 - 404
+2024-11-18 16:03:23,093 - splunk_token - INFO - Event: User Retrieval Error, Username: 16, Response Code: 404 - 16 - 404
+2024-11-18 16:45:56,101 - splunk_token - INFO - Event: User Retrieval Error, Username: 10, Response Code: 404 - 10 - 404
+2024-11-18 16:46:12,453 - splunk_token - INFO - Event: User Retrieval Error, Username: 10, Response Code: 404 - 10 - 404
+2024-11-18 17:03:54,581 - splunk_token - INFO - Event: User Retrieval Error, Username: 13, Response Code: 404 - 13 - 404
+2024-11-18 17:09:42,339 - splunk_token - INFO - Event: User Retrieval Error, Username: 9, Response Code: 404 - 9 - 404
+2024-11-18 17:11:22,856 - splunk_token - INFO - Event: User Retrieval Error, Username: 10, Response Code: 404 - 10 - 404
+2024-11-18 17:12:21,128 - splunk_token - INFO - Event: User Retrieval Error, Username: 11, Response Code: 404 - 11 - 404
+2024-11-18 17:13:45,445 - splunk_token - INFO - Event: User Retrieval Error, Username: 12, Response Code: 404 - 12 - 404
+2024-11-18 17:30:01,897 - splunk_token - INFO - Event: User Retrieval Error, Username: 13, Response Code: 404 - 13 - 404
+2024-11-18 17:33:53,152 - splunk_token - INFO - Event: User Retrieval Error, Username: 14, Response Code: 404 - 14 - 404
+2024-11-18 17:35:14,461 - splunk_token - INFO - Event: User Retrieval Error, Username: 14, Response Code: 404 - 14 - 404
+2024-11-18 17:37:48,590 - splunk_token - INFO - Event: User Retrieved Successfully, Username: user_1, Response Code: 200 - user_1 - 200
+2024-11-18 17:37:51,763 - splunk_token - INFO - Event: User Retrieved Successfully, Username: user_3, Response Code: 200 - user_3 - 200
+2024-11-18 17:37:54,156 - splunk_token - INFO - Event: User Retrieved Successfully, Username: user_2, Response Code: 200 - user_2 - 200
+2024-11-18 17:37:58,059 - splunk_token - INFO - Event: User Retrieved Successfully, Username: user, Response Code: 200 - user - 200
+2024-11-18 17:38:01,456 - splunk_token - INFO - Event: List of Users, Username: Admin, Response Code: 200 - Admin - 200
+2024-11-18 17:38:08,835 - splunk_token - INFO - Event: User Retrieved Successfully, Username: user_1, Response Code: 200 - user_1 - 200
+2024-11-18 17:38:11,501 - splunk_token - INFO - Event: User Retrieved Successfully, Username: user_4, Response Code: 200 - user_4 - 200
+2024-11-18 21:17:40,284 - splunk_token - INFO - Event: User Retrieval Error, Username: 6, Response Code: 404 - 6 - 404
+2024-11-18 21:18:28,267 - splunk_token - INFO - Event: User Retrieval Error, Username: 7, Response Code: 404 - 7 - 404
+2024-11-18 21:22:39,096 - splunk_token - INFO - Event: User Retrieval Error, Username: 7, Response Code: 404 - 7 - 404
+2024-11-18 21:23:29,309 - splunk_token - INFO - Event: User Retrieval Error, Username: 8, Response Code: 404 - 8 - 404
+2024-11-18 21:24:13,429 - splunk_token - INFO - Event: User Retrieval Error, Username: 9, Response Code: 404 - 9 - 404
+2024-11-18 21:24:49,731 - splunk_token - INFO - Event: User Retrieval Error, Username: 10, Response Code: 404 - 10 - 404
+2024-11-18 21:30:59,381 - splunk_token - INFO - Event: User Retrieval Error, Username: 11, Response Code: 404 - 11 - 404
+2024-11-18 21:31:34,073 - splunk_token - INFO - Event: User Retrieval Error, Username: 11, Response Code: 404 - 11 - 404
+2024-11-18 21:32:27,569 - splunk_token - INFO - Event: User Retrieval Error, Username: 11, Response Code: 404 - 11 - 404
+2024-11-18 21:33:57,575 - splunk_token - INFO - Event: User Retrieval Error, Username: 11, Response Code: 404 - 11 - 404
+2024-11-18 21:34:52,049 - splunk_token - INFO - Event: User Retrieval Error, Username: 11, Response Code: 404 - 11 - 404
+2024-11-18 21:36:53,442 - splunk_token - INFO - Event: User Retrieval Error, Username: 11, Response Code: 404 - 11 - 404
+2024-11-18 21:45:13,985 - splunk_token - INFO - Event: User Retrieval Error, Username: 11, Response Code: 404 - 11 - 404
+2024-11-18 21:46:00,057 - splunk_token - INFO - Event: User Retrieval Error, Username: 12, Response Code: 404 - 12 - 404
+2024-11-18 22:06:08,884 - splunk_token - INFO - Event: User Retrieval Error, Username: 12, Response Code: 404 - 12 - 404
+2024-11-18 22:07:20,291 - splunk_token - INFO - Event: User Retrieval Error, Username: 13, Response Code: 404 - 13 - 404
+2024-11-18 22:12:47,793 - splunk_token - INFO - Event: User Retrieval Error, Username: 13, Response Code: 404 - 13 - 404
+2024-11-18 22:13:35,844 - splunk_token - INFO - Event: User Retrieval Error, Username: 13, Response Code: 404 - 13 - 404
+2024-11-18 22:14:04,210 - splunk_token - INFO - Event: User Retrieval Error, Username: 14, Response Code: 404 - 14 - 404
+2024-11-19 11:07:02,301 - splunk_token - INFO - Event: User Retrieval Error, Username: 8, Response Code: 404 - 8 - 404
+2024-11-19 11:08:32,350 - splunk_token - INFO - Event: User Retrieval Error, Username: 9, Response Code: 404 - 9 - 404
+2024-11-19 11:12:53,659 - splunk_token - INFO - Event: User Retrieval Error, Username: 10, Response Code: 404 - 10 - 404
+2024-11-19 11:23:57,438 - splunk_token - INFO - Event: User Retrieval Error, Username: 10, Response Code: 404 - 10 - 404
+2024-11-19 11:24:20,644 - splunk_token - INFO - Event: User Retrieval Error, Username: 11, Response Code: 404 - 11 - 404
+2024-11-19 11:25:10,291 - splunk_token - INFO - Event: User Retrieval Error, Username: 11, Response Code: 404 - 11 - 404
+2024-11-19 11:34:45,681 - splunk_token - INFO - Event: User Retrieval Error, Username: 12, Response Code: 404 - 12 - 404
+2024-11-19 11:35:07,067 - splunk_token - INFO - Event: User Retrieval Error, Username: 12, Response Code: 404 - 12 - 404
+2024-11-19 11:41:34,164 - splunk_token - INFO - Event: User Retrieval Error, Username: 12, Response Code: 404 - 12 - 404
+2024-11-19 11:41:58,647 - splunk_token - INFO - Event: User Retrieval Error, Username: 12, Response Code: 404 - 12 - 404
+2024-11-19 11:48:44,604 - splunk_token - INFO - Event: User Retrieval Error, Username: 13, Response Code: 404 - 13 - 404
+2024-11-19 11:49:40,696 - splunk_token - INFO - Event: User Retrieval Error, Username: 13, Response Code: 404 - 13 - 404
+2024-11-19 11:55:55,289 - splunk_token - INFO - Event: User Retrieval Error, Username: 13, Response Code: 404 - 13 - 404
+2024-11-19 11:57:47,367 - splunk_token - INFO - Event: User Retrieval Error, Username: 14, Response Code: 404 - 14 - 404
+2024-11-19 12:00:47,838 - splunk_token - INFO - Event: User Retrieval Error, Username: 15, Response Code: 404 - 15 - 404
+2024-11-19 12:02:21,259 - splunk_token - INFO - Event: User Retrieval Error, Username: 15, Response Code: 404 - 15 - 404
+2024-11-19 12:02:45,804 - splunk_token - INFO - Event: User Retrieval Error, Username: 16, Response Code: 404 - 16 - 404
+2024-11-19 14:45:24,302 - splunk_token - INFO - Event: User Retrieval Error, Username: 8, Response Code: 404 - 8 - 404
+2024-11-19 14:47:19,132 - splunk_token - INFO - Event: User Retrieval Error, Username: 9, Response Code: 404 - 9 - 404
+2024-11-19 14:49:54,876 - splunk_token - INFO - Event: User Retrieval Error, Username: 10, Response Code: 404 - 10 - 404
+2024-11-19 14:50:22,080 - splunk_token - INFO - Event: User Retrieval Error, Username: 10, Response Code: 404 - 10 - 404
+2024-11-19 15:09:17,215 - splunk_token - INFO - Event: User Retrieval Error, Username: 10, Response Code: 404 - 10 - 404
+2024-11-19 15:14:39,594 - splunk_token - INFO - Event: User Retrieval Error, Username: 10, Response Code: 404 - 10 - 404
+2024-11-19 15:18:08,043 - splunk_token - INFO - Event: User Retrieval Error, Username: 11, Response Code: 404 - 11 - 404
+2024-11-19 15:19:43,024 - splunk_token - INFO - Event: User Retrieval Error, Username: 11, Response Code: 404 - 11 - 404
+2024-11-19 15:21:24,396 - splunk_token - INFO - Event: User Retrieval Error, Username: 12, Response Code: 404 - 12 - 404
+2024-11-19 15:22:36,872 - splunk_token - INFO - Event: User Retrieval Error, Username: 12, Response Code: 404 - 12 - 404
+2024-11-19 15:29:05,697 - splunk_token - INFO - Event: User Retrieval Error, Username: 12, Response Code: 404 - 12 - 404
+2024-11-19 15:30:05,961 - splunk_token - INFO - Event: User Retrieval Error, Username: 12, Response Code: 404 - 12 - 404
+2024-11-19 15:30:24,908 - splunk_token - INFO - Event: User Retrieval Error, Username: 13, Response Code: 404 - 13 - 404
+2024-11-19 15:46:48,810 - splunk_token - INFO - Event: User Retrieval Error, Username: 14, Response Code: 404 - 14 - 404
+2024-11-20 11:52:21,669 - splunk_token - INFO - Event: User Retrieval Error, Username: 8, Response Code: 404 - 8 - 404
+2024-11-20 12:04:22,581 - splunk_token - INFO - Event: User Retrieval Error, Username: 9, Response Code: 404 - 9 - 404
+2024-11-20 12:13:51,197 - splunk_token - INFO - Event: User Retrieval Error, Username: 10, Response Code: 404 - 10 - 404
+2024-11-20 12:15:16,834 - splunk_token - INFO - Event: User Retrieval Error, Username: 10, Response Code: 404 - 10 - 404
+2024-11-20 12:17:21,444 - splunk_token - INFO - Event: User Retrieval Error, Username: 11, Response Code: 404 - 11 - 404
+2024-11-20 12:18:03,524 - splunk_token - INFO - Event: User Retrieval Error, Username: 11, Response Code: 404 - 11 - 404
+2024-11-20 15:17:29,732 - splunk_token - INFO - Event: User Retrieval Error, Username: 8, Response Code: 404 - 8 - 404
+2024-11-20 15:31:07,044 - splunk_token - INFO - Event: User Retrieval Error, Username: 9, Response Code: 404 - 9 - 404
+2024-11-20 15:34:13,815 - splunk_token - INFO - Event: User Retrieval Error, Username: 10, Response Code: 404 - 10 - 404
+2024-11-20 15:37:41,529 - splunk_token - INFO - Event: User Retrieval Error, Username: 11, Response Code: 404 - 11 - 404
+2024-11-20 15:38:47,965 - splunk_token - INFO - Event: User Retrieval Error, Username: 12, Response Code: 404 - 12 - 404
+2024-11-20 15:52:28,080 - splunk_token - INFO - Event: User Retrieval Error, Username: 7, Response Code: 404 - 7 - 404
+2024-11-21 11:19:01,491 - splunk_token - INFO - Event: User Retrieval Error, Username: 7, Response Code: 404 - 7 - 404
+2024-11-21 11:26:22,240 - splunk_token - INFO - Event: User Retrieval Error, Username: 9, Response Code: 404 - 9 - 404
+2024-11-21 11:29:00,888 - splunk_token - INFO - Event: User Retrieval Error, Username: 10, Response Code: 404 - 10 - 404
+2024-11-21 11:30:04,869 - splunk_token - INFO - Event: User Retrieval Error, Username: 11, Response Code: 404 - 11 - 404
+2024-11-21 17:01:50,262 - splunk_token - INFO - Event: User Retrieval Error, Username: 7, Response Code: 404 - 7 - 404
+2024-11-21 18:08:17,392 - splunk_token - INFO - Event: User Retrieval Error, Username: 8, Response Code: 404 - 8 - 404
+2024-11-22 14:50:50,824 - splunk_token - INFO - Event: User Retrieval Error, Username: 8, Response Code: 404 - 8 - 404
+2024-11-22 14:51:34,920 - splunk_token - INFO - Event: User Retrieval Error, Username: 9, Response Code: 404 - 9 - 404
+2024-11-22 14:52:43,226 - splunk_token - INFO - Event: User Retrieval Error, Username: 14, Response Code: 404 - 14 - 404
+2024-11-22 15:02:56,879 - splunk_token - INFO - Event: User Retrieval Error, Username: 10, Response Code: 404 - 10 - 404
+2024-11-22 15:03:41,129 - splunk_token - INFO - Event: User Retrieval Error, Username: 11, Response Code: 404 - 11 - 404
+2024-11-22 15:04:27,576 - splunk_token - INFO - Event: User Retrieval Error, Username: 10, Response Code: 404 - 10 - 404
+2024-11-22 15:04:52,599 - splunk_token - INFO - Event: User Retrieval Error, Username: 11, Response Code: 404 - 11 - 404
+2024-11-22 15:15:33,291 - splunk_token - INFO - Event: User Retrieval Error, Username: 11, Response Code: 404 - 11 - 404
+2024-11-22 15:15:56,278 - splunk_token - INFO - Event: User Retrieval Error, Username: 12, Response Code: 404 - 12 - 404
+2024-11-22 15:34:31,355 - splunk_token - INFO - Event: User Retrieval Error, Username: 12, Response Code: 404 - 12 - 404
+2024-11-22 15:34:48,379 - splunk_token - INFO - Event: User Retrieval Error, Username: 13, Response Code: 404 - 13 - 404
+2024-11-22 15:35:09,352 - splunk_token - INFO - Event: User Retrieval Error, Username: 13, Response Code: 404 - 13 - 404
+2024-11-25 12:06:28,998 - splunk_token - INFO - Event: User Retrieval Error, Username: 8, Response Code: 404 - 8 - 404
+2024-11-25 12:07:44,644 - splunk_token - INFO - Event: User Retrieval Error, Username: 15, Response Code: 404 - 15 - 404
+2024-11-26 11:09:49,633 - splunk_token - INFO - Event: User Retrieval Error, Username: 20, Response Code: 404 - 20 - 404
+2024-11-26 11:10:16,885 - splunk_token - INFO - Event: User Retrieval Error, Username: 20, Response Code: 404 - 20 - 404
+2024-11-29 17:59:51,930 - splunk_token - INFO - Event: User Retrieval Error, Username: 9, Response Code: 404 - 9 - 404
+2024-11-29 18:03:14,850 - splunk_token - INFO - Event: User Retrieval Error, Username: 9, Response Code: 404 - 9 - 404
+2024-11-29 18:04:44,116 - splunk_token - INFO - Event: User Retrieval Error, Username: 15, Response Code: 404 - 15 - 404
