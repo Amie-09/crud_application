@@ -587,3 +587,11 @@ DETAIL:  Key (id)=(11) already exists.
 2024-11-29 17:59:51,930 - splunk_token - INFO - Event: User Retrieval Error, Username: 9, Response Code: 404 - 9 - 404
 2024-11-29 18:03:14,850 - splunk_token - INFO - Event: User Retrieval Error, Username: 9, Response Code: 404 - 9 - 404
 2024-11-29 18:04:44,116 - splunk_token - INFO - Event: User Retrieval Error, Username: 15, Response Code: 404 - 15 - 404
+2024-12-11 14:51:44,120 - splunk_token - INFO - Event: List of Users, Username: Admin, Response Code: 200 - Admin - 200
+2024-12-11 14:54:45,569 - splunk_token - INFO - Event: User Retrieval Error, Username: 14, Response Code: 404 - 14 - 404
+2024-12-11 14:55:15,794 - splunk_token - INFO - Event: User Retrieval Error, Username: 15, Response Code: 404 - 15 - 404
+2024-12-11 14:55:41,643 - splunk_token - INFO - Event: User Retrieval Error, Username: 15, Response Code: 404 - 15 - 404
+2024-12-11 14:57:30,109 - splunk_token - INFO - Event: User Retrieval Error, Username: 15, Response Code: 404 - 15 - 404
+2024-12-11 15:25:08,876 - splunk_token - INFO - Event: User Retrieval Error, Username: 16, Response Code: 404 - 16 - 404
+2024-12-16 11:13:36,051 - splunk_token - INFO - Event: User Retrieval Error, Username: 15, Response Code: 404 - 15 - 404
+2024-12-16 11:13:49,018 - splunk_token - INFO - Event: User Retrieval Error, Username: 16, Response Code: 404 - 16 - 404

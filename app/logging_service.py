@@ -1,10 +1,9 @@
 import logging
-
 from splunk_hec_handler import SplunkHecHandler
 
 # Splunk HEC configuration
 SPLUNK_HEC_URL = "127.0.0.1"
-SPLUNK_HEC_TOKEN = "938bb790-2773-4e03-a3b4-8b6b3371ce2e"  # HEC token
+SPLUNK_HEC_TOKEN = "2062f4f8-858f-4a6f-908b-9674e3ae1187"  # HEC token
 SPLUNK_HEC_PORT = 8088  # Default HEC port
 
 # Create a logger
@@ -18,7 +17,7 @@ splunk_handler = SplunkHecHandler(
     port=SPLUNK_HEC_PORT,
     proto="http",
     index="crud_index",
-    sourcetype="crud_log",
+    sourcetype="crud_type",
     ssl_verify=False,
 )
 
@@ -26,6 +25,7 @@ splunk_handler = SplunkHecHandler(
 file_handler = logging.FileHandler("crud_app.log", mode="a")
 file_handler.setLevel(logging.INFO)
 
+# Create formatter and set for both file and splunk handler
 formatter = logging.Formatter(
     "%(asctime)s - %(name)s - %(levelname)s - %(message)s - %(username)s - %(response_code)d"
 )
@@ -36,13 +36,7 @@ splunk_handler.setFormatter(formatter)
 logger.addHandler(file_handler)
 logger.addHandler(splunk_handler)
 
-file_handler = logging.FileHandler("splunk_debug.log")
-logger.addHandler(file_handler)
-
-# Add handler to the logger
-logger.addHandler(splunk_handler)
-
-
+# Function to log events
 def log_to_splunk(event: str, username: str, response_code: int):
     try:
         message = (

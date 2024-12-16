@@ -587,3 +587,11 @@ Event: User Retrieval Error, Username: 20, Response Code: 404
 Event: User Retrieval Error, Username: 9, Response Code: 404
 Event: User Retrieval Error, Username: 9, Response Code: 404
 Event: User Retrieval Error, Username: 15, Response Code: 404
+Event: List of Users, Username: Admin, Response Code: 200
+Event: User Retrieval Error, Username: 14, Response Code: 404
+Event: User Retrieval Error, Username: 15, Response Code: 404
+Event: User Retrieval Error, Username: 15, Response Code: 404
+Event: User Retrieval Error, Username: 15, Response Code: 404
+Event: User Retrieval Error, Username: 16, Response Code: 404
+Event: User Retrieval Error, Username: 15, Response Code: 404
+Event: User Retrieval Error, Username: 16, Response Code: 404

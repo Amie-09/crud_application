@@ -6,7 +6,7 @@ import requests
 
 # Splunk HEC URL and token
 splunk_hec_url = "http://127.0.0.1:8088/services/collector"
-splunk_token = "acbeb69d-9a79-4acc-9663-45f3f3844c8f"  # Your Splunk token
+splunk_token = "2062f4f8-858f-4a6f-908b-9674e3ae1187"  # Your Splunk token
 
 # Set headers for the HTTP request
 headers = {
