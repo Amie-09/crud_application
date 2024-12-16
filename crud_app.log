@@ -595,3 +595,16 @@ DETAIL:  Key (id)=(11) already exists.
 2024-12-11 15:25:08,876 - splunk_token - INFO - Event: User Retrieval Error, Username: 16, Response Code: 404 - 16 - 404
 2024-12-16 11:13:36,051 - splunk_token - INFO - Event: User Retrieval Error, Username: 15, Response Code: 404 - 15 - 404
 2024-12-16 11:13:49,018 - splunk_token - INFO - Event: User Retrieval Error, Username: 16, Response Code: 404 - 16 - 404
+2024-12-16 16:33:38,883 - splunk_token - INFO - Event: List of Users, Username: Admin, Response Code: 200 - Admin - 200
+2024-12-16 16:34:32,204 - splunk_token - INFO - Event: User Creation Failed, Username: user_1, Response Code: 400 - user_1 - 400
+2024-12-16 16:38:14,811 - splunk_token - INFO - Event: User Creation Failed, Username: user_1, Response Code: 400 - user_1 - 400
+2024-12-16 16:38:36,431 - splunk_token - INFO - Event: User Deleted Successfully, Username: user_1, Response Code: 200 - user_1 - 200
+2024-12-16 16:38:40,096 - splunk_token - INFO - Event: User Deleted Successfully, Username: user_2, Response Code: 200 - user_2 - 200
+2024-12-16 16:38:42,763 - splunk_token - INFO - Event: User Deleted Successfully, Username: user_3, Response Code: 200 - user_3 - 200
+2024-12-16 16:38:47,401 - splunk_token - INFO - Event: User Deleted Successfully, Username: user_4, Response Code: 200 - user_4 - 200
+2024-12-16 16:38:51,566 - splunk_token - INFO - Event: User Deleted Successfully, Username: user, Response Code: 200 - user - 200
+2024-12-16 16:38:55,753 - splunk_token - INFO - Event: Delete User Error, Username: 6, Response Code: 404 - 6 - 404
+2024-12-16 16:39:05,149 - splunk_token - INFO - Event: List of Users, Username: Admin, Response Code: 200 - Admin - 200
+2024-12-16 16:39:13,610 - splunk_token - INFO - Event: User Creation Successful, Username: user_1, Response Code: 200 - user_1 - 200
+2024-12-16 16:39:39,286 - splunk_token - INFO - Event: User Creation Successful, Username: user_2, Response Code: 200 - user_2 - 200
+2024-12-16 16:39:54,751 - splunk_token - INFO - Event: User Creation Successful, Username: user_3, Response Code: 200 - user_3 - 200
