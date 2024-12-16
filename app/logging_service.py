@@ -1,4 +1,5 @@
 import logging
+
 from splunk_hec_handler import SplunkHecHandler
 
 # Splunk HEC configuration
@@ -35,6 +36,7 @@ splunk_handler.setFormatter(formatter)
 # Add both handlers to the logger
 logger.addHandler(file_handler)
 logger.addHandler(splunk_handler)
+
 
 # Function to log events
 def log_to_splunk(event: str, username: str, response_code: int):
