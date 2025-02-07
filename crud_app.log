@@ -608,3 +608,14 @@ DETAIL:  Key (id)=(11) already exists.
 2024-12-16 16:39:13,610 - splunk_token - INFO - Event: User Creation Successful, Username: user_1, Response Code: 200 - user_1 - 200
 2024-12-16 16:39:39,286 - splunk_token - INFO - Event: User Creation Successful, Username: user_2, Response Code: 200 - user_2 - 200
 2024-12-16 16:39:54,751 - splunk_token - INFO - Event: User Creation Successful, Username: user_3, Response Code: 200 - user_3 - 200
+2024-12-17 10:38:35,135 - splunk_token - INFO - Event: User Retrieved Successfully, Username: user_1, Response Code: 200 - user_1 - 200
+2024-12-17 10:39:05,191 - splunk_token - INFO - Event: User Creation Failed, Username: user_2, Response Code: 400 - user_2 - 400
+2024-12-17 10:39:27,124 - splunk_token - INFO - Event: List of Users, Username: Admin, Response Code: 200 - Admin - 200
+2024-12-17 10:40:06,551 - splunk_token - INFO - Event: User Retrieval Error, Username: 10, Response Code: 404 - 10 - 404
+2024-12-17 10:40:33,351 - splunk_token - INFO - Event: User Retrieval Error, Username: 11, Response Code: 404 - 11 - 404
+2024-12-17 17:36:52,286 - splunk_token - INFO - Event: User Retrieval Error, Username: 12, Response Code: 404 - 12 - 404
+2024-12-17 17:40:47,385 - splunk_token - INFO - Event: User Retrieval Error, Username: 13, Response Code: 404 - 13 - 404
+2024-12-17 17:47:52,542 - splunk_token - INFO - Event: User Retrieval Error, Username: 14, Response Code: 404 - 14 - 404
+2024-12-17 17:48:17,660 - splunk_token - INFO - Event: User Retrieval Error, Username: 14, Response Code: 404 - 14 - 404
+2024-12-18 10:56:21,920 - splunk_token - INFO - Event: User Retrieval Error, Username: 14, Response Code: 404 - 14 - 404
+2024-12-18 10:56:42,176 - splunk_token - INFO - Event: User Retrieval Error, Username: 14, Response Code: 404 - 14 - 404

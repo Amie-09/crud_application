@@ -51,7 +51,7 @@ dashboard_data = """
       <title>Total Errors</title>
       <single>
         <search>
-          <query>index="crud_index" Response_Code&gt;=400 | stats count as "Total Errors"</query>
+          <query>index="crud_index" response_code&gt;=400 | stats count as "Total Errors"</query>
           <earliest>$global_time_picker.earliest$</earliest>
           <latest>$global_time_picker.latest$</latest>
         </search>
@@ -65,7 +65,7 @@ dashboard_data = """
       <title>Response Code Distribution</title>
       <chart>
         <search>
-          <query>index="crud_index" | stats count by Response_Code | rename Response_Code as "Response Code", count as "Event Count"</query>
+          <query>index="crud_index" | stats count by response_code | rename response_code as "Response Code", count as "Event Count"</query>
           <earliest>$global_time_picker.earliest$</earliest>
           <latest>$global_time_picker.latest$</latest>
         </search>
@@ -80,7 +80,7 @@ dashboard_data = """
       <title>Event Count (Sorted)</title>
       <chart>
         <search>
-          <query>index="crud_index" | stats count by Response_Code | sort -count</query>
+          <query>index="crud_index" | stats count by response_code | sort -count</query>
           <earliest>$global_time_picker.earliest$</earliest>
           <latest>$global_time_picker.latest$</latest>
         </search>
@@ -95,7 +95,7 @@ dashboard_data = """
       <title>API Events Table</title>
       <table>
         <search>
-          <query>index="crud_index" | table index, API_Action, Username, Response_Code</query>
+          <query>index="crud_index" | table index, API_message, username, response_code</query>
           <earliest>$global_time_picker.earliest$</earliest>
           <latest>$global_time_picker.latest$</latest>
         </search>
@@ -143,9 +143,9 @@ def set_dashboard_permissions(dashboard_name, token):
     """Set permissions for the specified dashboard."""
     permissions_payload = {
         "sharing": "app",
-        "owner": "admin",
-        "perms.read": "user,admin",
-        "perms.write": "admin",
+        "owner": "splunk",
+        "perms.read": "user,splunk",
+        "perms.write": "splunk",
     }
     headers = {
         "Authorization": f"Bearer {token}",

@@ -12,7 +12,7 @@ secret_name = "token"
 
 # Splunk REST API details
 BASE_URL = "https://127.0.0.1:8089/servicesNS/Nobody/search/data/ui/views"
-DASHBOARD_NAME = "automated_dashboard_studio_4"
+DASHBOARD_NAME = "automated_dashboard_studio"
 DASHBOARD_URL = f"{BASE_URL}/{DASHBOARD_NAME}"
 CREATE_DASHBOARD_URL = BASE_URL
 ACL_URL = f"https://127.0.0.1:8089/servicesNS/Nobody/data/ui/views/{DASHBOARD_NAME}/acl"
@@ -23,84 +23,119 @@ HEADERS = {"Content-Type": "application/x-www-form-urlencoded"}
 # Define your Studio Dashboard JSON
 dashboard_json = {
     "dataSources": {
-        "ds_ABFQCoT1": {
+        "ds_1nupyefH": {
             "type": "ds.search",
             "options": {
-                "query": 'index="crud_index"',
-                "queryParameters": {"earliest": "0"},
+                "query": "index=crud_index \n| table _time, index, API_message, username, response_code",
+                "queryParameters": {
+                    "earliest": "$global_time.earliest$",
+                    "latest": "$global_time.latest$",
+                },
+                "enableSmartSources": True,
             },
-            "name": "Events 1 search",
+            "name": "table",
         },
-        "ds_eH7Wcn6y": {
+        "ds_DaeGvKSd": {
             "type": "ds.chain",
-            "options": {"query": "| fieldsummary maxvals=10", "extend": "ds_ABFQCoT1"},
+            "options": {"query": "| fieldsummary maxvals=10", "extend": "ds_1nupyefH"},
             "name": "Events 2 search",
         },
-        "ds_9O025E2K": {
+        "ds_ttPmqcs2": {
             "type": "ds.search",
             "options": {
-                "query": 'index="crud_index"\n| table index, API_Action, Username, Response_Code',
-                "enableSmartSources": True,
-            },
-            "name": "Latest Events",
-        },
-        "ds_MJCNGjgq": {
-            "type": "ds.search",
-            "options": {
-                "query": 'index="crud_index"\r\n| stats count by Response_Code\r\n| sort -count\r\n',
-                "enableSmartSources": True,
-            },
-            "name": "event_count",
-        },
-        "ds_tMcWxae6": {
-            "type": "ds.search",
-            "options": {
-                "query": 'index="crud_index"\r\n| stats count as "Total Events"\r\n',
+                "query": 'index=crud_index | stats count as "Total Events"\r\n',
                 "enableSmartSources": True,
             },
             "name": "total_events",
         },
-        "ds_3OCX06AN": {
+        "ds_0xUZjZjH": {
             "type": "ds.search",
             "options": {
-                "query": 'index="crud_index"\r\n| stats count by Response_Code\r\n| rename response_code as "Response Code", count as "Event Count"\r\n',
-                "enableSmartSources": True,
-            },
-            "name": "response_code_distribution",
-        },
-        "ds_NRl1Fkm2": {
-            "type": "ds.search",
-            "options": {
-                "query": 'index="crud_index" Response_Code>=400\r\n| stats count by Username\r\n| rename count as "Error Count", Username as "Username"\r\n',
+                "query": "index=crud_index response_code>=400 OR response_code>=404 OR response_code>=500| stats count by username\r\n",
                 "enableSmartSources": True,
             },
             "name": "error_by_username",
         },
-        "ds_srngHQ1F": {
+        "ds_Wn68zxwA": {
             "type": "ds.search",
             "options": {
-                "query": 'index="crud_index" Response_Code>=400\r\n| stats count as "Total Errors"\r\n',
+                "query": "index=crud_index | stats count by response_code\r\n",
                 "enableSmartSources": True,
             },
-            "name": "total_errors",
+            "name": "response_code_count",
+        },
+        "ds_sEJkkcvU": {
+            "type": "ds.search",
+            "options": {
+                "query": "index=crud_index | stats count by response_code\r\n",
+                "enableSmartSources": True,
+            },
+            "name": "response_code",
+        },
+        "ds_i4TVoCNI": {
+            "type": "ds.search",
+            "options": {
+                "query": 'index=crud_index response_code>=400 | stats count as "Total Error Count"\r\n',
+                "enableSmartSources": True,
+            },
+            "name": "error_count",
         },
     },
     "visualizations": {
-        "viz_TstwezaJ": {
+        "viz_3D3MYocz": {
             "type": "splunk.table",
-            "dataSources": {"primary": "ds_9O025E2K"},
+            "dataSources": {"primary": "ds_1nupyefH"},
             "containerOptions": {},
             "showProgressBar": False,
             "showLastUpdated": False,
-            "title": "API Events",
+            "title": "API Information",
         },
-        "viz_tZDqmPFw": {
-            "type": "splunk.column",
-            "dataSources": {"primary": "ds_MJCNGjgq"},
-            "title": "Event Count",
+        "viz_gjZ6bj64": {
+            "type": "splunk.singlevalue",
+            "dataSources": {"primary": "ds_ttPmqcs2"},
+            "title": "Total Events",
+        },
+        "viz_sIUA0VO3": {
+            "type": "splunk.pie",
+            "options": {"showDonutHole": True},
+            "dataSources": {"primary": "ds_0xUZjZjH"},
+            "title": "Error by Username",
+        },
+        "viz_k4EafJqF": {
+            "type": "splunk.pie",
+            "dataSources": {"primary": "ds_Wn68zxwA"},
+            "title": "Count by Response Code",
             "options": {
                 "seriesColors": [
-                    "#009CEB",
+                    "#1a8929",
+                    "#af1126",
+                    "#0051B5",
+                    "#008C80",
+                    "#99B100",
+                    "#FFA476",
+                    "#FF6ACE",
+                    "#AE8CFF",
+                    "#00689D",
+                    "#00490A",
+                    "#465D00",
+                    "#9D6300",
+                    "#F6540B",
+                    "#FF969E",
+                    "#E47BFE",
+                ]
+            },
+        },
+        "viz_g7NmuMHe": {
+            "type": "splunk.column",
+            "dataSources": {"primary": "ds_sEJkkcvU"},
+            "containerOptions": {},
+            "showProgressBar": False,
+            "showLastUpdated": False,
+            "options": {
+                "dataValuesDisplay": "minmax",
+                "seriesColors": [
+                    "#00a4fd",
+                    "#00CDAF",
                     "#DD9900",
                     "#FF677B",
                     "#CB2196",
@@ -119,54 +154,13 @@ dashboard_json = {
                     "#FF969E",
                     "#E47BFE",
                 ],
-                "seriesColorsByField": {"Response_Code": "#5cc05c"},
-                "seriesSpacing": 4,
-                "dataValuesDisplay": "minmax",
-                "showTooltip": False,
-                "overlayFields": ["Response_Code"],
-                "showIndependentYRanges": True,
-                "columnGrouping": "overlay",
             },
+            "title": "Status Chart",
         },
-        "viz_il3cYKLF": {
+        "viz_JiufYHhw": {
             "type": "splunk.singlevalue",
-            "dataSources": {"primary": "ds_tMcWxae6"},
-            "title": "Total Events(API Calls)",
-        },
-        "viz_Z3rbAcPS": {
-            "type": "splunk.pie",
-            "dataSources": {"primary": "ds_3OCX06AN"},
-            "title": "Response Code Distribution",
-            "options": {
-                "seriesColors": [
-                    "#CB2196",
-                    "#813193",
-                    "#0051B5",
-                    "#008C80",
-                    "#99B100",
-                    "#FFA476",
-                    "#FF6ACE",
-                    "#AE8CFF",
-                    "#00689D",
-                    "#00490A",
-                    "#465D00",
-                    "#9D6300",
-                    "#F6540B",
-                    "#FF969E",
-                    "#E47BFE",
-                ]
-            },
-        },
-        "viz_JuzJds9n": {
-            "type": "splunk.pie",
-            "options": {"showDonutHole": True},
-            "dataSources": {"primary": "ds_NRl1Fkm2"},
-            "title": "Error By Username",
-        },
-        "viz_zbZj4Iz4": {
-            "type": "splunk.singlevalue",
-            "dataSources": {"primary": "ds_srngHQ1F"},
-            "title": "Total Errors",
+            "dataSources": {"primary": "ds_i4TVoCNI"},
+            "title": "Error Count",
         },
     },
     "inputs": {
@@ -181,39 +175,39 @@ dashboard_json = {
         "options": {"width": 1440, "height": 960, "display": "auto"},
         "structure": [
             {
-                "item": "viz_TstwezaJ",
+                "item": "viz_3D3MYocz",
                 "type": "block",
-                "position": {"x": 0, "y": 670, "w": 1440, "h": 290},
+                "position": {"x": 0, "y": 660, "w": 1440, "h": 300},
             },
             {
-                "item": "viz_tZDqmPFw",
+                "item": "viz_gjZ6bj64",
                 "type": "block",
-                "position": {"x": 390, "y": 300, "w": 730, "h": 370},
+                "position": {"x": 0, "y": 0, "w": 440, "h": 330},
             },
             {
-                "item": "viz_il3cYKLF",
+                "item": "viz_sIUA0VO3",
                 "type": "block",
-                "position": {"x": 0, "y": 0, "w": 510, "h": 300},
+                "position": {"x": 440, "y": 0, "w": 1000, "h": 330},
             },
             {
-                "item": "viz_Z3rbAcPS",
+                "item": "viz_k4EafJqF",
                 "type": "block",
-                "position": {"x": 0, "y": 300, "w": 390, "h": 370},
+                "position": {"x": 0, "y": 330, "w": 540, "h": 330},
             },
             {
-                "item": "viz_JuzJds9n",
+                "item": "viz_g7NmuMHe",
                 "type": "block",
-                "position": {"x": 510, "y": 0, "w": 930, "h": 300},
+                "position": {"x": 540, "y": 330, "w": 480, "h": 330},
             },
             {
-                "item": "viz_zbZj4Iz4",
+                "item": "viz_JiufYHhw",
                 "type": "block",
-                "position": {"x": 1120, "y": 300, "w": 330, "h": 360},
+                "position": {"x": 1020, "y": 330, "w": 420, "h": 330},
             },
         ],
         "globalInputs": ["input_global_trp"],
     },
-    "title": "Studio - Dashboard",
+    "title": "Python Automated Dashboard",
     "description": "",
     "defaults": {
         "dataSources": {
@@ -321,7 +315,7 @@ def update_dashboard(token):
         f'<label>{dashboard_json["title"]}</label>'
         f'<description>{dashboard_json["description"]}</description>'
         f'<definition><![CDATA[{json.dumps(dashboard_json)}]]></definition>'
-        f'<meta type="hiddenElements"><![CDATA[{{"hideEdit": false, "hideOpenInSearch": false, "hideExport": false}}]]></meta>'
+        f'<meta type="hiddenElements"><![CDATA[{{"hideEdit": false, "hideOpenInSearch": false, "hideExport": False}}]]></meta>'
         f'</dashboard>',
     }
 
@@ -351,9 +345,9 @@ def set_permissions(dashboard_name, token):
     # Define the permissions you want to set
     permissions_payload = {
         "sharing": "app",  # Options: "app", "user", "global"
-        "owner": "admin",  # Specify the owner
-        "perms.read": "user,admin",  # Users who can read the dashboard
-        "perms.write": "admin",  # Users who can write to the dashboard
+        "owner": "splunk",  # Specify the owner
+        "perms.read": "user,splunk",  # Users who can read the dashboard
+        "perms.write": "splunk",  # Users who can write to the dashboard
     }
 
     headers = {
@@ -403,3 +397,8 @@ def main():
 # Run the script
 if __name__ == "__main__":
     main()
+
+
+
+
+# changed False to false in the payload
